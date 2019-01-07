@@ -120,36 +120,89 @@ Stanford&#39;s literature departments, CESTA, and the Library will be invited to
 _Students who have signed up to do a tutorial or conference proposal as part of their contract are advised to turn them in by 3/15 to ensure they have enough time for a revision if needed for the tutorial to be considered satisfactory. Students who submit their work by 3/15 will receive feedback by 3/18._  _Tutorials and conference proposals can be submitted as late as 3/18 for feedback by 3/20. Work submitted after 3/18 will not receive feedback and an opportunity for revision._ _All work and revisions must be submitted by 3/22._ |
 
 
+Accommodation
+=============
 
-# Appendix: Contract parameters
+I want this class to be accessible to anyone who shows up with an interest in the topic. Everyone has a right to the full experience of the class — which is fundamentally about what role digital tools and methods might play in your education and/or research, and how you might choose to connect with and contribute to communities of "digital" scholarship. Grappling with your identity as a student and/or scholar can be difficult. If there's something in the syllabus or that we cover in class that freaks you out, please talk to me! If you're encountering a barrier, or expecting a possible barrier to your being able to successfully complete your contract, let's chat! It doesn't need to be academic — sleep-training kids, taking care of unwell family and friends, roommates who listen to Viking metal bands at full volume at all hours of the night, and anxiously binge-watching Netflix are real life. Mental illness flare-ups can impact what you can get done — I know, I had a bipolar II diagnosis for all of grad school. Whether or not you've got paperwork through the Office of Accessible Education (<https://oae.stanford.edu/>), please come talk to me anytime if something is getting in the way of your learning or completing the contract you created.
 
-Students will write their own contracts for the grade they want to receive, using the parameters below. The contract allows students to set their own goals for how much they want to invest in this class, and hold themselves accountable for it. Because of the requirements of university degree programs, contracts have to map to grades, but that shouldn&#39;t get in the way of students&#39; goals or learning. There is some overlap in the parameters for different grades at different credit levels; a student taking this course for 3 credits who wants to focus on this class may end up putting in as much work for their A as a student taking it for 5 credits who has other priorities this quarter. This is &quot;a feature, not a bug&quot;, as is said about software: the 3-credit student will have a structure to hold themselves accountable for engaging with the class to the extent they want, and the 5-credit student will do enough work to get their desired grade given the university&#39;s expectations of how much work should go into that grade at that credit level.
+Fundamental standard & honor code
+=================================
 
-## Assignment overview
+Beyond the bare minimums laid out by the Stanford Fundamental Standard (<https://communitystandards.stanford.edu/policies-and-guidance/fundamental-standard>), I expect you to treat one another in this class not only with respect, but with generosity. If you find a resource or an approach that has helped you, share it so others can benefit -- and listen when others share.
+
+The honor code (<https://communitystandards.stanford.edu/policies-and-guidance/honor-code>) lays out guidelines for the university's policy on academic integrity. Collaboration -- with your classmates and others -- is very much welcome in this course, but be sure to acknowledge your collaborators and the assistance they provided (e.g. including in your acknowledgements section a cousin who helped you interpret some of the statistics from your analysis.)
+
+Acknowledgements
+================
+
+Thanks to Miriam Posner (DH 150: Selfies, Snapchat, & Cyberbullies, <http://miriamposner.com/dh150w15/contract-grading/>) and Ryan Cordell (ENGL 1450: Reading and Writing in the Digital Age, <https://f18rwda.ryancordell.org/course-policies.html>) for the inspiration for contract grading.
+
+Readings and resources for East Asian languages are largely drawn from Molly des Jardin's *East Asian Digital Humanities (EALC111/511)* syllabus (<https://mollydesjardin.com/projects/ealc111-511_syllabus.pdf>).
+
+Thanks to Aimée Morrison for inspiring the accommodation statement.
+
+Appendix: Contract parameters
+=============================
+
+Students will write their own contracts for the grade they want to receive, using the parameters below. The contract allows students to set their own goals for how much they want to invest in this class, and hold themselves accountable for it. Because of the requirements of university degree programs, contracts have to map to grades, but that shouldn't get in the way of students' goals or learning. There is some overlap in the parameters for different grades at different credit levels; a student taking this course for 3 credits who wants to focus on this class may end up putting in as much work for their A as a student taking it for 5 credits who has other priorities this quarter. This is "a feature, not a bug", as is said about software: the 3-credit student will have a structure to hold themselves accountable for engaging with the class to the extent they want, and the 5-credit student will do enough work to get their desired grade given the university's expectations of how much work should go into that grade at that credit level.
+
+Assignment overview
+-------------------
 
 The following assignments are included in one or more A-grade contracts:
 
-- **Blog posts** : 800-1000 words reflecting thoughtfully on topics discussed in class. Blog posts are an opportunity to think through and share how the topics we discuss apply, or could apply, to your project in the class, or your scholarship or career more broadly. As you work on your project, blog posts allow you to share challenges, roadblocks, and discoveries when applying the tools we&#39;ve discussed. Blog posts must be posted on Canvas, but for any blog post, you have the option of additionally sharing it on the Stanford Digital Humanities site ([http://digitalhumanities.stanford.edu](http://digitalhumanities.stanford.edu)) for the benefit of the broader community.
-- **Blog responses:** 60-100 words responding to a classmate&#39;s blog post, posted on Canvas. It&#39;s helpful to get feedback on your reflections, and reading others&#39; thoughts and challenges might give you ideas for what to try (or not) with your own project.
-- **Conference proposals:** A pair of proposals for presenting your project at a conference. One will follow the guidelines for posters for DH 2019 (750 words maximum, [https://dh2019.adho.org/call-for-papers/cfp-english/](https://dh2019.adho.org/call-for-papers/cfp-english/)). The other will follow the least-demanding guidelines for a conference in your academic field, or an academic field relevant to your text (e.g. if you&#39;re a Comp Sci major working on Chinese literature, you could choose a Comp Sci conference or a literature conference). Conference proposals will be submitted via Canvas.
-- **Poster:** a visually engaging presentation of your project, compatible with either a presentation or stand-alone display. Posters will be printed and presented at the poster session at the end of the course. Creating a poster forces you to be succinct in the textual presentation of your project and think through how to present it in a visual way. Poster files will be submitted via Canvas and will be printed for the poster session at the end of the course.
-- **Project proposal:** 250 words or less, describing a research question, and what text(s) and method(s) you will use to address it. These project proposals are a very lightweight precursor to writing a grant proposal. Project proposals will be submitted via Canvas.
-- **Project:** A set of activities that aim to address a research question. The project is the framework for engaging with text that is meaningful to you, using tools and methods that we cover in class (or others you find that are useful for addressing your research question). There may or may not be a final &quot;deliverable&quot; for your project, but depending on your credit level, you&#39;ll develop a poster, tutorial, and/or conference proposals based on your project.
-- **Tutorial** : 800-1200 words walking through how to do something useful using a tool or method we&#39;ve discussed in class, or that you&#39;ve used for your project. The audience is someone else in your field without prior technical experience. Having access to a clearly written, relevant tutorial can mean the difference between trying and not trying a new tool or method, particularly for scholars who don&#39;t have access to courses or workshops. While tutorials can be time-consuming to write well, authoring a tutorial that makes tools or methods accessible to others is a way to develop your professional identity within the digital humanities community.
+* **Blog posts**: 800-1000 words reflecting thoughtfully on topics discussed in class. Blog posts are an opportunity to think through and share how the topics we discuss apply, or could apply, to your project in the class, or your scholarship or career more broadly. As you work on your project, blog posts allow you to share challenges, roadblocks, and discoveries when applying the tools we've discussed. Blog posts must be posted on Canvas, but for any blog post, you have the option of additionally sharing it on the Stanford Digital Humanities site (<http://digitalhumanities.stanford.edu>) for the benefit of the broader community.
 
-## A-grade contract parameters at different credit levels
+* **Blog responses:** 60-100 words responding to a classmate's blog post, posted on Canvas. It's helpful to get feedback on your reflections, and reading others' thoughts and challenges might give you ideas for what to try (or not) with your own project.
 
-|   | 5 | 4 | 3 | 2 | 1 |
-| --- | --- | --- | --- | --- | --- |
-| Missable classes | 2 | 3 | 3 | 3 | 4 |
-| Blog posts | 3-5 | 2-5 | 2-4 | 1-3 | 0-2 |
-| Blog comments | 5-8 | 3-7 | 3-6 | 2-5 | 2-4 |
-| Project proposal | Yes | Yes | Yes | Yes | No\* |
-| Implement project | Yes | Yes | Yes | No\* | No\* |
-| Create &amp; present poster | Yes | Yes | Choose 1-2: poster, tutorial, proposal | No | No |
-| Write tutorial **OR** conference proposals | Yes (can be both) | Yes (can be both) | -- | Write tutorial | No |
+* **Conference proposals:** A pair of proposals for presenting your project at a conference. One will follow the guidelines for posters for DH 2019 (750 words maximum, <https://dh2019.adho.org/call-for-papers/cfp-english/>). The other will follow the least-demanding guidelines for a conference in your academic field, or an academic field relevant to your text (e.g. if you're a Comp Sci major working on Chinese literature, you could choose a Comp Sci conference or a literature conference). Conference proposals will be submitted via Canvas.
 
-_\* While these credit levels don&#39;t need to complete the assignment, they should still spend at least an hour a week experimenting with the tools covered in class and digital text in their language._
+* **Poster:** a visually engaging presentation of your project, compatible with either a presentation or stand-alone display. Posters will be printed and presented at the poster session at the end of the course. Creating a poster forces you to be succinct in the textual presentation of your project and think through how to present it in a visual way. Poster files will be submitted via Canvas and will be printed for the poster session at the end of the course.
 
+* **Project proposal:** 250 words or less, describing a research question, and what text(s) and method(s) you will use to address it. These project proposals are a very lightweight precursor to writing a grant proposal. Project proposals will be submitted via Canvas.
 
-_Thanks to Miriam Posner (DH 150: Selfies, Snapchat, &amp; Cyberbullies,_ [_http://miriamposner.com/dh150w15/contract-grading/_](http://miriamposner.com/dh150w15/contract-grading/)_) and Ryan Cordell (ENGL 1450: Reading and Writing in the Digital Age,_ [_https://f18rwda.ryancordell.org/course-policies.html_](https://f18rwda.ryancordell.org/course-policies.html)_) for the inspiration for contract grading._
+* **Project:** A set of activities that aim to address a research question. The project is the framework for engaging with text that is meaningful to you, using tools and methods that we cover in class (or others you find that are useful for addressing your research question). There may or may not be a final "deliverable" for your project, but depending on your credit level, you'll develop a poster, tutorial, and/or conference proposals based on your project.
+
+* **Tutorial**: 800-1200 words walking through how to do something useful using a tool or method we've discussed in class, or that you've used for your project. The audience is someone else in your field without prior technical experience. Having access to a clearly written, relevant tutorial can mean the difference between trying and not trying a new tool or method, particularly for scholars who don't have access to courses or workshops. While tutorials can be time-consuming to write well, authoring a tutorial that makes tools or methods accessible to others is a way to develop your professional identity within the digital humanities community.
+
+A-grade contract parameters at different credit levels
+------------------------------------------------------
+| Assignment 	| 5 	| 4 	| 3 	| 2 	| 1 	|
+|----------------------------------------	|-------------------	|-------------------	|----------------------------------------	|----------------	|-----	|
+| Missable classes 	| 2 	| 3 	| 3 	| 3 	| 4 	|
+| Blog posts 	| 3-5 	| 2-5 	| 2-4 	| 1-3 	| 0-2 	|
+| Blog comments 	| 5-8 	| 3-7 	| 3-6 	| 2-5 	| 2-4 	|
+| Project proposal 	| Yes 	| Yes 	| Yes 	| Yes 	| No* 	|
+| Implement project 	| Yes 	| Yes 	| Yes 	| No* 	| No* 	|
+| Create & present poster 	| Yes 	| Yes 	| Choose 1-2: poster, tutorial, proposal 	| No 	| No 	|
+| Write tutorial OR conference proposals 	| Yes (can be both) 	| Yes (can be both) 	| -- 	| Write tutorial 	| No 	|
+
+\* _While these credit levels don't need to complete the assignment, they should still spend at least an hour a week experimenting with the tools covered in class and digital text in their language._
+
+B-grade contract parameters at different credit levels
+------------------------------------------------------
+| Assignment 	| 5 	| 4 	| 3 	| 2 	| 1 	|
+|----------------------------------------	|-------------------	|-------------------	|----------------------------------------	|----------------	|-----	|
+| Missable classes 	| 3 	| 4 	| 4 	| 4 	| 5 	|
+| Blog posts 	| 2-4 	| 1-4 	| 1-3 	| 1-2 	| 0-1 	|
+| Blog comments 	| 3-5 	| 2-4 	| 2-4 	| 1-3 	| 1-2 	|
+| Project proposal 	| Yes 	| Yes 	| Yes 	| Yes 	| No* 	|
+| Implement project 	| Yes 	| Yes 	| Yes 	| No* 	| No* 	|
+| Create & present poster 	| Yes 	| Yes 	| Choose 1-2: poster, tutorial, proposal 	| No 	| No 	|
+| Write tutorial OR conference proposals 	| Yes (can be both) 	| Yes (can be both) 	| -- 	| Write tutorial 	| No 	|
+
+\* _While these credit levels don't need to complete the assignment, they should still spend at least an hour a week experimenting with the tools covered in class and digital text in their language._
+
+C-grade/pass contract parameters at different credit levels
+-----------------------------------------------------------
+| Assignment 	| 5 	| 4 	| 3 	| 2 	| 1 	|
+|----------------------------------------	|-----	|-----	|--------------------------------------	|----------------	|-----	|
+| Missable classes 	| 4 	| 5 	| 5 	| 5 	| 5 	|
+| Blog posts 	| 1-3 	| 1-3 	| 1-3 	| 1-2 	| 0-1 	|
+| Blog comments 	| 2-4 	| 1-3 	| 1-4 	| 1-2 	| 1-2 	|
+| Project proposal 	| Yes 	| Yes 	| Yes 	| Yes 	| No* 	|
+| Implement project 	| Yes 	| Yes 	| Yes 	| No* 	| No* 	|
+| Create & present poster 	| Yes 	| Yes 	| Choose 1: poster, tutorial, proposal 	| No 	| No 	|
+| Write tutorial OR conference proposals 	| Yes 	| Yes 	| -- 	| Write tutorial 	| No 	|
+
+\* _While these credit levels don't need to complete the assignment, they should still spend at least an hour a week experimenting with the tools covered in class and digital text in their language._
