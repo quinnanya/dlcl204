@@ -26,11 +26,11 @@ This course will involve reading less primary and secondary literature than most
 
 ## Tuesday, January 8: Introductions
 
-We&#39;ll go over the syllabus, make sure everyone is signed up for the right number and type of credits, and talk about contract grading. By way of context for the course, I&#39;ll share a few things about my own background with non-English digital humanities. We&#39;ll talk about definitions of digital humanities, and touch on what this course won&#39;t be covering. Finally, we&#39;ll start discussing some of the kinds of research questions that the tools and methods in this course can help address.
+We&#39;ll go over the syllabus, make sure everyone is signed up for the right number and type of credits, and talk about contract grading. By way of context for the course, I&#39;ll share a few things about my own background with non-English digital humanities. We&#39;ll talk about definitions of digital humanities, and touch on what this course won&#39;t be covering.
 
 ## Thursday, January 10: DH and disciplinary (sub-)cultures
 
-We&#39;ll continue our discussion of the kinds of research questions that this course can help you learn how to answer. We&#39;ll also talk about some of the sub-cultures and divisions within DH, as well as unifying values shared by much of DH. We&#39;ll touch on how DH intersects with data science, statistics, and programming. We&#39;ll also look at examples of tutorials, recipes, and documentation to lay a foundation for a future tutorial assignment.
+We&#39;ll discuss examples of the kinds of research questions that this course can help you learn how to answer. We&#39;ll also talk about some of the sub-cultures and divisions within DH, as well as unifying values shared by much of DH. We&#39;ll touch on how DH intersects with data science, statistics, and programming, and how different people contextualize their DH work with respect to those areas of study, as well as traditional humanistic fields. We&#39;ll also look at examples of tutorials, recipes, and documentation to lay a foundation for a future tutorial assignment.
 
 ## Tuesday, January 15: Digitizing and digitized text (hands-on, please bring laptop)
 
