@@ -32,9 +32,54 @@ We&#39;ll go over the syllabus, make sure everyone is signed up for the right nu
 
 We&#39;ll discuss examples of the kinds of research questions that this course can help you learn how to answer. We&#39;ll also talk about some of the sub-cultures and divisions within DH, as well as unifying values shared by much of DH. We&#39;ll touch on how DH intersects with data science, statistics, and programming, and how different people contextualize their DH work with respect to those areas of study, as well as traditional humanistic fields. We&#39;ll also look at examples of tutorials, recipes, and documentation to lay a foundation for a future tutorial assignment.
 
+- Literary questions
+  - Text markup: [TEI Consortium](http://www.tei-c.org/)
+  - Counting words: see Katherine Faull, &quot;Visualization &amp; Literary Analysis&quot; (for class use only)
+  - Counting certain kinds of words: see Craig Messner, &quot;Syntactic Analysis as Literary Criticism&quot; (class use only)
+  - Stylometry: see Maciej Eder et al, &quot;Measuring Style&quot; (class use only)
+  - Topic modeling: see Shawna Ross &amp; Randa El Khatib, &quot;Digital Theme Analysis&quot; (class use only)
+    - David Blei, &quot;[Topic Modeling and Digital Humanities](http://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/)&quot;,
+    - Teddy Rowland, &quot;[Topic Modeling: What Humanists Actually Do With It](http://digitalhumanities.berkeley.edu/blog/16/07/14/topic-modeling-what-humanists-actually-do-it-guest-post-teddy-roland-university)&quot;
+    - Lisa M. Rhody, &quot;[Topic Modeling and Figurative Language](http://journalofdigitalhumanities.org/2-1/topic-modeling-and-figurative-language-by-lisa-m-rhody/)&quot;
+    - Benjamin M. Schmidt, &quot;[Words Alone: Dismantling Topic Models in the Humanities](http://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/)&quot;
+  - Word vectors: Ryan Heuser, &quot;Word Vectors in the Eighteenth Century&quot; ([part 1 – concepts](http://ryanheuser.org/word-vectors-1/), and [part 2 - methods](http://ryanheuser.org/word-vectors-2/))
+    - Wohlgenannt et al. &quot;[Extracting Social Networks from Literary Text with Word Embedding Tools](https://aclanthology.coli.uni-saarland.de/papers/W16-4004/w16-4004)&quot;
+  - Geospatial: see Diane Jakacki &amp; Janelle Jenstad, &quot;Mapping the Literary&quot; (class use only)
+  - Sentiment analysis: Matthew Jockers, &quot;[Revealing Sentiment Analysis and Plot Arcs with the Syuzhet Package](http://www.matthewjockers.net/2015/02/02/syuzhet/)&quot; (and follow-up &quot;[The Rest of the Story](http://www.matthewjockers.net/2015/02/25/the-rest-of-the-story/)&quot;);  Annie Swafford &quot;[Problems with the Syuzhet Package](https://annieswafford.wordpress.com/2015/03/02/syuzhet/)&quot; (and [related blog posts](https://annieswafford.wordpress.com/category/syuzhet/)); Matthew Jockers &quot;[Requiem for a Low-Pass Filter](http://www.matthewjockers.net/2015/04/06/epilogue/)&quot;
+  - Network analysis: see Graham Sack &amp; Scott Weingart, &quot;Literary Network Analysis&quot; (class use only)
+    - David McClure, &quot;[Tuning Textplot](http://dclure.org/logs/tuning-textplot/)&quot;
+- Triangulating identities &amp; roles
+  - [Alex Saum-Pascual](http://www.alexsaum.com/), UC Berkeley
+    - [Electronic Literature: A Critical Writing and Making Course](http://eliterature.digitalhumanities.berkeley.edu/)
+  - [David Birnbaum](http://obdurodon.org/), University of Pittsburgh
+  - [Molly des Jardin](http://www.mollydesjardin.com/), University of Pennsylvania
+  - [Jeff Tharsen](http://tharsen.net/), University of Chicago
+
 ## Tuesday, January 15: Digitizing and digitized text (hands-on, please bring laptop)
 
 Digital text is a prerequisite for any of the analytical and visualization tools that we&#39;ll be looking at, but it&#39;s not where many projects begin. We&#39;ll talk about scanning or photographing textual documents and using Optical Character Recognition (OCR) to convert them to digital text. We&#39;ll talk about how good is &quot;good enough&quot; for OCR quality, and how you can improve it. Once you have digital text, we&#39;ll look at _Voyant_, a straightforward tool for looking at your text in new ways – but it requires that your text have words separated by spaces. We&#39;ll talk about word segmenter tools that can make Voyant and similar tools usable for languages that don&#39;t use spaces.
+- OCR and its relevance
+  - Ryan Cordell, [Why You (A Humanist) Should Care About Optical Character Recognition](https://ryancordell.org/research/why-ocr/)
+  - Ian Milligan, [Illusionary Order: Online Databases, Optical Character Recognition, and Canadian History, 1997–2010](http://muse.jhu.edu.stanford.idm.oclc.org/article/527016)
+  - Ryan Cordell &amp; David Smith, [A Research Agenda for Historical and Multilingual Optical Character Recognition](https://repository.library.northeastern.edu/files/neu:f1881m035)
+- OCR software
+  - [ABBYY FineReader (Windows)](https://www.abbyy.com/en-us/finereader/)
+  - [ABBYY FineReader (Mac, not as good)](https://www.abbyy.com/en-us/finereader/pro-for-mac/)
+  - [ABBYY FineScanner (mobile)](https://www.finescanner.com/en/?utm_source=AbbyyCom&amp;utm_medium=MobileProductsPage&amp;utm_campaign=FineScanner)
+  - [Tesseract (open source, cross-platform)](https://github.com/tesseract-ocr/tesseract/wiki)
+  - [Installing Tesseract (more detailed information)](http://guides.library.illinois.edu/c.php?g=347520&amp;p=4121425)
+- OCR errors
+  - Ryan Cordell, &quot;[&#39;Q i-jtb the Raven&#39;: Taking Dirty OCR Seriously](http://ryancordell.org/research/qijtb-the-raven/)&quot; (English)
+  - David Birnbaum, [OCR report for](http://bdinski.obdurodon.org/ocr-procedure.html)[_Bdinski sbornik_](http://bdinski.obdurodon.org/ocr-procedure.html)[project](http://bdinski.obdurodon.org/ocr-procedure.html) (Russian)
+  - Donald Sturgeon, [Unsupervised Extraction of Training Data](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/view/15490/15011)
+  - [for Pre-Modern Chinese OCR](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/view/15490/15011)
+- Word segmentation for Chinese &amp; Japanese
+  - Marko Valentin Micic &amp; Hugo Chu. [Hyperbolic Deep Learning for Chinese Natural Language Understanding](https://arxiv.org/abs/1812.10408v1?fbclid=IwAR0_m5UYv6C5hhQuNZfpBvSs4DiFWGYQtrHNxO_fsLkK8x2__51Y4_PgnF8).
+  - [Stanford NLP word segmenter for Chinese](https://nlp.stanford.edu/software/segmenter.shtml)
+  - [Jieba](https://github.com/fxsjy/jieba) segmenter module for Python (Chinese)
+  - [TinySegmenter](http://chasen.org/~taku/software/TinySegmenter/) (Japanese, browser-based)
+- Text exploration with [Voyant](https://voyant-tools.org/) (tokenizing built-in for Japanese)
+
 
 ## Thursday, January 17: &quot;Data&quot; and documentation
 
