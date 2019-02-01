@@ -81,10 +81,22 @@ Digital text is a prerequisite for any of the analytical and visualization tools
 - Text exploration with [Voyant](https://voyant-tools.org/) (tokenizing built-in for Japanese)
 
 
-## Thursday, January 17: &quot;Data&quot; and documentation
+## Thursday, January 17: &quot;Data&quot;
 
-We&#39;ll consider whether (and how) DH has &quot;data&quot;, and what the difference is between a text and data. We&#39;ll follow up on the earlier examples of tutorials by looking at technical documentation, and how to go about decoding these texts written for a programmer audience. We&#39;ll discuss how to talk with programmers, including how (and when) to file a bug report for code or software.
+We'll consider whether (and how) DH has "data", and what the difference is between a text and data. (Special thanks to Miriam Posner for sharing her notes from "Data Trouble").
 
+-   Miriam Posner, "[Humanities Data: A Necessary Contradiction](http://miriamposner.com/blog/humanities-data-a-necessary-contradiction/)" 
+-   Isaac Gilman, "[From Marginalization to Accessibility: Classification of Indigenous Materials](https://commons.pacificu.edu/cgi/viewcontent.cgi?article=1005&context=libfac)" -- on Maori subject headings
+-   [Black code studies](https://sites.duke.edu/dcore/2017/08/07/introduction-to-black-code-studies-wild-seed-in-the-machine/)
+    -   [Shaka McGlotten](http://sfonline.barnard.edu/traversing-technologies/shaka-mcglotten-black-data/)
+    -   [Tressie McMillan Cottom](https://tressiemc.com/)
+    -   [Jessica M. Johnson](https://jmjohnso.com/)
+    -   [Simone Browne](https://www.dukeupress.edu/dark-matters)
+    -   [Gabrielle Foreman](https://www.english.udel.edu/people/gforeman)
+    -   [Safiya Noble](https://safiyaunoble.com/)
+    -   [Mark Anthony Neal](https://aaas.duke.edu/people/mark-anthony-neal)
+    -   [Mimi Onuoha](http://mimionuoha.com/writing/)
+-   Miriam Posner, "Data Trouble: Why Humanists Have Problems with Datavis, and Why Anyone Should Care" [YouTube video](https://www.youtube.com/watch?v=sW0u1pNQNxc)
 
 
 ## Tuesday, January 22: Unicode
@@ -95,60 +107,70 @@ If you work with a language that doesn&#39;t use unaccented Latin characters, yo
 
 Text digitization – be it through OCR or transcription – is a time-consuming prerequisite for digital research. Especially in smaller fields that are less likely to receive grants for large-scale digitization, it&#39;s valuable to share texts that you&#39;ve prepared. We&#39;ll talk about some options for how to do that, best practices for file formats and documentation, and citation and credit for reusing others&#39; texts. We&#39;ll touch on copyright and data ownership, and how to deal with those constraints. We&#39;ll look at national text corpora and HathiTrust, and how to get access to those corpora. We may also have a guest lecturer who can talk about how the Stanford Libraries can help you acquire texts.
 
-## Tuesday, January 29: Thematic research collections
+## Tuesday, January 29: Open Lab Day #1
 
-_Thematic research collections_ that make an argument and/or provide a resource are a longstanding group of digital projects. We&#39;ll take a look at some examples and the tools used to create them. We&#39;ll also look at approaches to developing thematic research collections that are influenced by postcolonial studies, including those that respect other forms of knowledge and defer to other permission systems.
+We'll have an open day where you can experiment with your text using Voyant, or venture into language-specific tools and resources. This is a good opportunity to check in with Quinn if you have questions about what you might do for your project.
 
-## Thursday, January 31: TEI
+## Thursday, January 31: Topic modeling & documentation
 
-The _Text Encoding Initiative_ (TEI) is a set of guidelines for encoding information about the structure and/or contents of a text within the text itself. It is explicitly _not_ a standard, and we&#39;ll talk about the implications of guidelines vs standard. TEI has been the recommended approach for creating critical editions for decades, and we&#39;ll look at examples of that kind of project and the tools that do, and don&#39;t, exist to make it easier to do this kind of work. We&#39;ll also touch on the human aspect of this infrastructure, and how decisions get made about what changes should be made to TEI.
+We'll look at examples of DH-specific technical documentation vs. general-purpose documentation, and work through the example of Miriam Posner's tutorial for the Topic Modeling Tool as well as interpreting the results from the Topic Modeling Tool.
+
+-   [Programming Historian](https://programminghistorian.org/en/lessons/): Not only for historians, Programming Historian is the _gold standard_ for detailed tutorials about how to use digital humanities tools and methods. If you're doing the documentation assignment, your documentation isn't expected to be this detailed and thorough, but you should use it as a model.
+-   Scott Weingart, [Topic Modeling for Humanists: A Guided Tour](http://www.scottbot.net/HIAL/index.html@p=19113.html)
+-   Matthew Jockers, [The LDA Buffet](http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/)
+-   Matthew Jockers, ["Secret" Recipe for Topic Modeling Themes](http://xn--secret%20recipe%20for%20topic%20modeling%20themes-9j44awb/)
+-   Ted Underwood, [Topic Models Made Just Simple Enough](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/)
+-   David Hoover, [Argument, Evidence, and the Limits of Digital Literary Studies](http://dhdebates.gc.cuny.edu/debates/text/71)
+-   Benjamin Schmidt, [Words Alone: Dismantling Topic Models in the Humanities](http://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/)
+-   Miriam Posner, [Getting started with the Topic Modeling Tool](https://github.com/miriamposner/tmt_get_started)
+-   Miriam Posner, [Very basic strategies for interpreting results from the Topic Modeling Tool](http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/)
+
 
 ### 1/31 - Due date: project proposals (question, method, source)
 _All students taking the course for 3 or more credits will submit a short proposal (1/2 page) with the question their project will be answering, what text(S) they&#39;ll use to answer it, and what tools / methods they&#39;ll use to answer it._ |
 
 
+## Tuesday, February 5: Part-of-speech tagging (hands-on, please bring laptop)
 
-## Thursday, February 7: Topic modeling (hands-on, please bring laptop)
+We’ll cover part-of-speech tagging conceptually, when and why you might use it, and students will try to use language-specific code to implement it for their text. 
 
-Topic modeling is a computational technique that generates clusters of words (&quot;topics&quot;), though it&#39;s left as an exercise to the researcher to interpret what those topics mean. Using our digitized texts, we&#39;ll run a tool called Mallet that implements the LDA algorithm for topic modeling, and attempt to make sense of the results.
-
-
-
-## Tuesday, February 12: Communities: Disciplinary, DH, Identity
+## Thursday, February 7: Communities: Disciplinary, DH, Identity
 
 There are many facets to your identity as a scholar, and you may need to adjust the way you frame your work based on the venues and communities where you are presenting it. We&#39;ll talk about your experience (if any) with conferences in your discipline, and how disciplinary conferences differ from DH ones. We&#39;ll reflect on the differences in the conception of &quot;diversity&quot; in the United States vs. Europe, and how those differences have played out in the international DH conference. We&#39;ll also look at some of the DH organizations, events, and communities that are centered on different aspects of identity, including nation, language, race, and gender. This session will lay the groundwork for the paired conference proposals assignment (for students taking the course for 5 credits).
 
+## Tuesday, February 12: Named-entity recognition & geospatial approaches (hands-on, bring laptop)
+We'll look at natural language processing tools for automatically extracting named entities (such as places). Students will try this for their own language. We’ll try transforming a list of places into geographic coordinates, and talk about the limitations of geocoding.
+
 ### 2/12 - Project proposals returned w/ feedback
 
-## Thursday, February 14: NLP (hands-on, please bring laptop)
-
-We&#39;ll cover a natural language processing (NLP) approach/tool in a hands-on manner. Currently consulting with a number of NLP experts about the options that would be the best fit for this course.
-
-## Tuesday, February 19: Design and DH
+## Thursday, February 14: Design and DH
 
 When and how does design matter when you&#39;re working with texts? We&#39;ll talk about design in the context of personal and project web presences, as well as conference poster design, and the difference between attended and unattended posters.
 
-## Thursday, February 21: NLP  (hands-on, please bring laptop)
-
-We&#39;ll cover an NLP approach/tool in a hands-on manner. Currently consulting with a number of NLP experts about the options that would be the best fit for this course.
-
-## Tuesday, February 26: Stylometry (hands-on, please bring laptop)
-
-Computational stylistics has been used for authorship attribution and detecting changes in authorship, looking at the impact of gender or background on literary production, and analyzing genre. We&#39;ll use the R programming language to run the _stylo_ package on your text corpus, or an example corpus, if yours isn&#39;t a good fit.
-
-
-
-## Thursday, February 28: Creating and cleaning structured data (hands-on, please bring  laptop)
+## Tuesday, February 19: Creating and cleaning structured data (hands-on, please bring  laptop)
 
 Some kinds of analysis and visualization require some kind of structured data as an input: you can&#39;t simply use a full digital text. We&#39;ll talk about some common kinds of structured data, and how to use _OpenRefine_ to reduce or eliminate inconsistencies in that data (&quot;cleaning&quot; it). We&#39;ll try transforming a list of places into geographic coordinates, and talk about the limitations of geocoding. Finally, we&#39;ll take our data (either newly-created from your own texts, or example data) and try it with _Palladio_, a simple visualization tool designed for humanistic inquiry.
 
-## Tuesday, March 5: Palladio &amp; visualization (hands-on, please bring laptop)
+## Thursday, February 21:  Palladio & visualization (hands-on, please bring laptop)
 
-We&#39;ll continue our exploration of Palladio and discuss other general-purpose visualization tools. We&#39;ll also discuss accessibility, particularly as relates to visualization, and some visualization tools designed for accessibility.
+We’ll continue our exploration of Palladio and discuss other general-purpose visualization tools. 
 
-## Thursday, March 7: Network analysis (hands-on, please bring laptop)
+## Tuesday, February 26: Network analysis (hands-on, please bring laptop)
 
-Palladio can turn a spreadsheet of data into a network that you can see. To turn a spreadsheet of data into a quantified network that you can meaningfully compare with other data, you need a network analysis tool, and a basic understanding of network analysis. We&#39;ll talk about some major concepts behind network analysis, and will try our example data with _Gephi_, one of the most widely-used pieces of software for network analysis.
+Palladio can turn a spreadsheet of data into a network that you can see. To turn a spreadsheet of data into a quantified network that you can meaningfully compare with other data, you need a network analysis tool, and a basic understanding of network analysis. We’ll talk about some major concepts behind network analysis, and will try our example data with Gephi, one of the most widely-used pieces of software for network analysis.
+
+## Thursday, February 28: Stylometry (hands-on, please bring laptop)
+
+Computational stylistics has been used for authorship attribution and detecting changes in authorship, looking at the impact of gender or background on literary production, and analyzing genre. We’ll use the R programming language to run the stylo package on your text corpus, or an example corpus, if yours isn’t a good fit.
+
+## Tuesday, March 5: Placeholder
+
+The syllabus is still probably overly ambitious. This placeholder can be a chance to catch up on things that people want to cover that we haven't gotten to.
+
+## Thursday, March 7: Open Lab Day #2
+
+A chance to work on your project and ask questions.
+
 
 ### 3/12 – Due date: posters
 _Students who have signed up to do a poster as part of their grade contract must submit their final poster by 10 AM on 3/12 to have it printed in time for the poster exhibition._ |
