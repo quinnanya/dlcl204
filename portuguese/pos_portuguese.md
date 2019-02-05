@@ -8,7 +8,7 @@ On the Github page, click the green "Clone or download" button, then click "Down
 
 
 ### Portuguese POS tags
-The full set of [Universal Dependencies tags](https://universaldependencies.org/u/pos/) is available here.
+The full set of [Universal Dependencies tags](https://universaldependencies.org/u/pos/) is available here. Unfortunately, there isn't currently a page with Portuguese-specific documentation.
 
 
 ## 2. Prepare your text
