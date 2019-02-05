@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pos>
+<sentence id="0">
+  <word wid="0" pos="PROPN">Dánae</word>
+  <word wid="1" pos="VERB">teje</word>
+  <word wid="2" pos="DET">el</word>
+  <word wid="3" pos="NOUN">tiempo</word>
+  <word wid="4" pos="ADJ">dorado</word>
+  <word wid="5" pos="ADP">por</word>
+  <word wid="6" pos="DET">el</word>
+  <word wid="7" pos="PROPN">Nilo</word>
+  <word wid="8" pos="VERB">envolviendo</word>
+  <word wid="9" pos="DET">los</word>
+  <word wid="10" pos="NOUN">labios</word>
+  <word wid="11" pos="SCONJ">que</word>
+  <word wid="12" pos="VERB">pasaban</word>
+  <word wid="13" pos="ADP">entre</word>
+  <word wid="14" pos="NOUN">labios</word>
+  <word wid="15" pos="CONJ">y</word>
+  <word wid="16" pos="NOUN">vuelos</word>
+  <word wid="17" pos="ADJ">desligados</word>
+  <word wid="18" pos="PUNCT">.</word>
+</sentence>
+<sentence id="1">
+  <word wid="0" pos="DET">La</word>
+  <word wid="1" pos="NOUN">mano</word>
+  <word wid="2" pos="CONJ">o</word>
+  <word wid="3" pos="DET">el</word>
+  <word wid="4" pos="NOUN">labio</word>
+  <word wid="5" pos="CONJ">o</word>
+  <word wid="6" pos="DET">el</word>
+  <word wid="7" pos="NOUN">pájaro</word>
+  <word wid="8" pos="VERB">nevaban</word>
+  <word wid="9" pos="PUNCT">.</word>
+</sentence>
+<sentence id="2">
+  <word wid="0" pos="VERB">Era</word>
+  <word wid="1" pos="DET">el</word>
+  <word wid="2" pos="NOUN">círculo</word>
+  <word wid="3" pos="ADP">en</word>
+  <word wid="4" pos="NOUN">nieve</word>
+  <word wid="5" pos="SCONJ">que</word>
+  <word wid="6" pos="PRON">se</word>
+  <word wid="7" pos="VERB">abría</word>
+  <word wid="8" pos="PUNCT">.</word>
+</sentence>
+<sentence id="3">
+  <word wid="0" pos="NOUN">Mano</word>
+  <word wid="1" pos="VERB">era</word>
+  <word wid="2" pos="ADP">sin</word>
+  <word wid="3" pos="NOUN">sangre</word>
+  <word wid="4" pos="DET">la</word>
+  <word wid="5" pos="NOUN">seda</word>
+  <word wid="6" pos="SCONJ">que</word>
+  <word wid="7" pos="VERB">borraba</word>
+  <word wid="8" pos="DET">la</word>
+  <word wid="9" pos="NOUN">perfección</word>
+  <word wid="10" pos="PRON">que</word>
+  <word wid="11" pos="VERB">muere</word>
+  <word wid="12" pos="ADP">de</word>
+  <word wid="13" pos="NOUN">rodillas</word>
+  <word wid="14" pos="CONJ">y</word>
+  <word wid="15" pos="ADP">en</word>
+  <word wid="16" pos="DET">su</word>
+  <word wid="17" pos="NOUN">celo</word>
+  <word wid="18" pos="PRON">se</word>
+  <word wid="19" pos="VERB">esconde</word>
+  <word wid="20" pos="CONJ">y</word>
+  <word wid="21" pos="PRON">se</word>
+  <word wid="22" pos="VERB">divierte</word>
+  <word wid="23" pos="PUNCT">.</word>
+</sentence>
+<sentence id="4">
+  <word wid="0" pos="ADJ">Vertical</word>
+  <word wid="1" pos="ADP">desde</word>
+  <word wid="2" pos="DET">el</word>
+  <word wid="3" pos="PROPN">mármol</word>
+  <word wid="4" pos="ADV">no</word>
+  <word wid="5" pos="VERB">miraba</word>
+  <word wid="6" pos="DET">la</word>
+  <word wid="7" pos="NOUN">frente</word>
+  <word wid="8" pos="SCONJ">que</word>
+  <word wid="9" pos="PRON">se</word>
+  <word wid="10" pos="VERB">abría</word>
+  <word wid="11" pos="ADP">en</word>
+  <word wid="12" pos="NOUN">loto</word>
+  <word wid="13" pos="ADJ">húmedo</word>
+  <word wid="14" pos="PUNCT">.</word>
+</sentence>
+<sentence id="5">
+  <word wid="0" pos="ADP">En</word>
+  <word wid="1" pos="PROPN">chillido</word>
+  <word wid="2" pos="ADP">sin</word>
+  <word wid="3" pos="NOUN">fin</word>
+  <word wid="4" pos="PRON">se</word>
+  <word wid="5" pos="VERB">abría</word>
+  <word wid="6" pos="DET">la</word>
+  <word wid="7" pos="ADJ">floresta</word>
+  <word wid="8" pos="_">al</word>
+  <word wid="9" pos="VERB">airado</word>
+  <word wid="10" pos="NOUN">redoble</word>
+  <word wid="11" pos="ADP">en</word>
+  <word wid="12" pos="NOUN">flecha</word>
+  <word wid="13" pos="CONJ">y</word>
+  <word wid="14" pos="NOUN">muerte</word>
+  <word wid="15" pos="PUNCT">.</word>
+</sentence>
+<sentence id="6">
+  <word wid="0" pos="PUNCT">¿</word>
+  <word wid="1" pos="ADV">No</word>
+  <word wid="2" pos="PRON">se</word>
+  <word wid="3" pos="X">apresura</word>
+  <word wid="4" pos="NOUN">tal</word>
+  <word wid="5" pos="NOUN">vez</word>
+  <word wid="6" pos="DET">su</word>
+  <word wid="7" pos="ADJ">fría</word>
+  <word wid="8" pos="NOUN">mirada</word>
+  <word wid="9" pos="ADP">sobre</word>
+  <word wid="10" pos="DET">la</word>
+  <word wid="11" pos="NOUN">garza</word>
+  <word wid="12" pos="ADJ">real</word>
+  <word wid="13" pos="CONJ">y</word>
+  <word wid="14" pos="DET">el</word>
+  <word wid="15" pos="NOUN">frío</word>
+  <word wid="16" pos="ADV">tan</word>
+  <word wid="17" pos="ADJ">débil</word>
+  <word wid="18" pos="_">del</word>
+  <word wid="19" pos="NOUN">poniente</word>
+  <word wid="20" pos="PUNCT">,</word>
+  <word wid="21" pos="VERB">grito</word>
+  <word wid="22" pos="SCONJ">que</word>
+  <word wid="23" pos="VERB">ayuda</word>
+  <word wid="24" pos="DET">la</word>
+  <word wid="25" pos="NOUN">fuga</word>
+  <word wid="26" pos="_">del</word>
+  <word wid="27" pos="VERB">dormir</word>
+  <word wid="28" pos="PUNCT">,</word>
+  <word wid="29" pos="VERB">llama</word>
+  <word wid="30" pos="NOUN">fría</word>
+  <word wid="31" pos="CONJ">y</word>
+  <word wid="32" pos="NOUN">lengua</word>
+  <word wid="33" pos="ADJ">alfilereada</word>
+  <word wid="34" pos="PUNCT">?</word>
+</sentence>
+</pos>
