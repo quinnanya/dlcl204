@@ -125,7 +125,7 @@ You can read more about [how the Universal Dependencies tags are used for Spanis
 
 
 ## 2. Prepare your text
-To use the segmenter, you need to have the text you're working with saved as a Unicode (UTF-8) text file. An example text file you can use for this exercise is [a few lines from "Muerte de Narciso" by José Lezama Lima](muerte_de_narciso.txt).
+To use the tagger, you need to have the text you're working with saved as a Unicode (UTF-8) text file. An example text file you can use for this exercise is [a few lines from "Muerte de Narciso" by José Lezama Lima](muerte_de_narciso.txt).
 
 It will be simplest for you to run the part-of-speech tagger if you copy your text file into the _stanford-postagger-full-2018-10-16_ folder that you unzipped. If you're comfortable navigating file paths in the command line, you can skip this step.
 
