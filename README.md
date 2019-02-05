@@ -2,7 +2,20 @@
 CompLit 204A, English 204
 Stanford University, winter 2019
 
-A repository for course materials for Stanford University's DLCL 204 / CompLit 204A / Eng 204 course _Digital Humanities Across Borders_, to be taught winter 2019.
+A repository for course materials for Stanford University's DLCL 204 / CompLit 204A / Eng 204 course _Digital Humanities Across Borders_, taught winter 2019 by Quinn Dombrowski, Academic Technology Specialist for the Division of Literatures, Cultures & Languages (DLCL).
 
-## Hashtag
-_#dlcl204_
+*Course hashtag: #dlcl204*
+
+## Syllabus
+The [course syllabus](dlcl204syllabus.md) continues to be revised in response to students' interests. Follow-up readings are typically posted after each class.
+
+## Language-specific materials
+Language-specific tutorials for in-class activities, as well as other notes and code created to assist with students' projects, is available for the following languages:
+
+* [Chinese](chinese/readme.md)
+* [German](german/readme.md)
+* [Italian](italian/readme.md)
+* [Japanese](japanese/readme.md)
+* [Portuguese](portuguese/readme.md)
+* [Russian](russian/readme.md)
+* [Spanish](spanish/readme.md)
