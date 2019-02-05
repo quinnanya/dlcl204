@@ -10,82 +10,44 @@ The current stable build (v0.2) is no longer compatible with Stanford CoreNLP, a
 TINT is [built using the ISTD (Italian Stanford Dependency Treebank)](http://tint.fbk.eu/pos.html), and uses the following tags.
 
 | Value | Description | Examples | Contexts of use |
-| A | adjective | *bello, buono, pauroso, ottimo* | una **bella** passeggiata\
-un **ottimo** attaccante\
-una persona **paurosa** |
-| AP | possessive adjective | *mio, tuo, nostro, loro* | a **mio** parere\
-il **tuo** libro |
-| B | adverb | *bene, fortemente, malissimo, domani* | arrivo **domani**\
-sto **bene** |
-| BN | negative adverb | *no, non, nemmeno* | **non** arrivo **nemmeno** domani\
-**non** sto bene |
+| ----------- | ----------- | ----------- | ----------- |
+| A | adjective | *bello, buono, pauroso, ottimo* | una **bella** passeggiata\ un **ottimo** attaccante\ una persona **paurosa** |
+| AP | possessive adjective | *mio, tuo, nostro, loro* | a **mio** parere\ il **tuo** libro |
+| B | adverb | *bene, fortemente, malissimo, domani* | arrivo **domani**\ sto **bene** |
+| BN | negative adverb | *no, non, nemmeno* | **non** arrivo **nemmeno** domani\ **non** sto bene |
 | CC | coordinate conjunction | *e, o, ma* | i libri **e** i quaderni |
 | CS | subordinate conjunction | *mentre, quando* | **quando** ho finito vengo |
-| DD | demonstrative determiner | *questo, codesto, quello* | **questo** denaro\
-**quella** famiglia |
-| DE | exclamative determiner | *che, quale, quanto* | **che** disastro!\
-**quale** catastrofe! |
-| DI | indefinite determiner | *alcuno, certo, tale, parecchio, qualsiasi* | **alcune** telefonate\
-**parecchi** giornali\
-**qualsiasi** persona |
+| DD | demonstrative determiner | *questo, codesto, quello* | **questo** denaro\ **quella** famiglia |
+| DE | exclamative determiner | *che, quale, quanto* | **che** disastro!\ **quale** catastrofe! |
+| DI | indefinite determiner | *alcuno, certo, tale, parecchio, qualsiasi* | **alcune** telefonate\ **parecchi** giornali\ **qualsiasi** persona |
 | DR | relative determiner | *cui, quale* | i **cui** libri |
-| DQ | interrogative determiner | *che, quale, quanto* | **che** cosa\
-**quanta** strada\
-**quale** formazione |
-| E | preposition | *di, a, da, in, su, attraverso, verso, di* | **a** casa del poeta\
-prima **di** giorno\
-**verso** sera |
-| EA | articulated preposition | *del, alla, dal* | a casa **del** poeta\
-**all'** alba |
+| DQ | interrogative determiner | *che, quale, quanto* | **che** cosa\ **quanta** strada\ **quale** formazione |
+| E | preposition | *di, a, da, in, su, attraverso, verso, di* | **a** casa del poeta\ prima **di** giorno\ **verso** sera |
+| EA | articulated preposition | *del, alla, dal* | a casa **del** poeta\ **all'** alba |
 | FB | balanced punctuation | *( ) -* | frutta **(**pere e banane**)** |
 | FC | clause boundary punctuation | *, ;* | mele, pere e banane**.** |
 | FF | comma | *, -* | mele**,** pere e banane |
 | FS | sentence boundary punctuation | *; . ? !* | cosa vuoi**?** |
 | I | interjection | *ahimè, beh, ecco, grazie* | **Beh**, che vuoi? |
-| N | cardinal number | *uno, due, cento, mille, 28, 2000* | **due** partite\
-**28** anni |
+| N | cardinal number | *uno, due, cento, mille, 28, 2000* | **due** partite\ **28** anni |
 | NO | ordinal number | *primo, secondo, centesimo* | **secondo** posto |
 | PC | clitic pronoun | *ci, vi, ne* | **vi** piace? |
-| PD | demonstrative pronoun | *questo, quello, costui* | **quello** di Roma\
-**costui** uccide |
-| PE | personal pronoun | stressed: *io, tu, egli, lui, noi, voi, essi*\
-unstressed: *lo, la, mi, ci, vi* | **io** parto\
-**lo** mangio |
-| PI | indefinite pronoun | *chiunque, ognuno, molto* | **chiunque** venga\
-i diritti di **ognuno** |
-| PP | possessive pronoun | *mio, tuo, suo, loro, proprio* | il **mio**è qui\
-più bella della **loro** |
-| PR | relative pronoun | *che, cui, quale* | **ciò** che dice\
-il **quale** afferma\
-a **cui** parlo |
-| PQ | interrogative pronoun | *che, chi, quanto* | non so **chi** parta\
-**quanto** costa?\
-**che** ha fatto ieri? |
-| RD | determinative article | *il, lo, la, i, gli, le* | **il** libro\
-**i** gatti |
-| RI | indeterminative article | *uno, un, una* | **un** amico\
-**una** bambina |
-| S | common noun | *amico, insegnante, verità* | l'**amico**\
-la **verità** |
+| PD | demonstrative pronoun | *questo, quello, costui* | **quello** di Roma\ **costui** uccide |
+| PE | personal pronoun | stressed: *io, tu, egli, lui, noi, voi, essi*\ unstressed: *lo, la, mi, ci, vi* | **io** parto\ **lo** mangio |
+| PI | indefinite pronoun | *chiunque, ognuno, molto* | **chiunque** venga\ i diritti di **ognuno** |
+| PP | possessive pronoun | *mio, tuo, suo, loro, proprio* | il **mio**è qui\ più bella della **loro** |
+| PR | relative pronoun | *che, cui, quale* | **ciò** che dice\ il **quale** afferma\ a **cui** parlo |
+| PQ | interrogative pronoun | *che, chi, quanto* | non so **chi** parta\ **quanto** costa?\ **che** ha fatto ieri? |
+| RD | determinative article | *il, lo, la, i, gli, le* | **il** libro\ **i** gatti |
+| RI | indeterminative article | *uno, un, una* | **un** amico\ **una** bambina |
+| S | common noun | *amico, insegnante, verità* | l'**amico**\ la **verità** |
 | SP | proper noun | *Monica, Pisa, Fiat, Sardegna* | **Monica** scrive |
-| SW | foreign noun | *fazenda, mulieris dignitatem, weekend* | una **fazenda** in Brasile\
-il prossimo **weekend** |
-| T | predeterminer | *tutti i giorni* | **tutti** i giorni\
-**entrambi** i genitori |
-| V | verb | *mangio, avere, passato* | il tempo **passa**\
-le **scriverò** una lettera\
-**vengo** domani |
-| VA | auxiliary verb | *sono stato, ho mangiato* | il peggio **è** passato\
-**ho scritto** una lettera\
- |
-| VM | modal verb | *posso, devono* | il peggio **deve** venire\
-**dovrò** scriverle una lettera |
-| X | residual class: it includes formulae,\
-unclassified words, alphabetic symbols\
-and the like |  | distanziare di **43***\
-mi **piacce
-
-*** |
+| SW | foreign noun | *fazenda, mulieris dignitatem, weekend* | una **fazenda** in Brasile\ il prossimo **weekend** |
+| T | predeterminer | *tutti i giorni* | **tutti** i giorni\ **entrambi** i genitori |
+| V | verb | *mangio, avere, passato* | il tempo **passa**\ le **scriverò** una lettera\ **vengo** domani |
+| VA | auxiliary verb | *sono stato, ho mangiato* | il peggio **è** passato\ **ho scritto** una lettera |
+| VM | modal verb | *posso, devono* | il peggio **deve** venire\ **dovrò** scriverle una lettera |
+| X | residual class: it includes formulae,\ unclassified words, alphabetic symbols\ and the like |  distanziare di piacce |
 
 
 ## 2. Prepare your text
