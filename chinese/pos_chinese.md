@@ -72,6 +72,7 @@ The Chinese tagger uses tags defined by the [Penn Chinese Treebank](https://cata
 
 
 | Tag | Description | Example |
+| ---- | ------ | ------|
 | AD | adverb | 也 |
 | AS | aspect marker | 着 |
 | BA | 把 in ba-construction | 把 |
