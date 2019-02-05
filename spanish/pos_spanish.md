@@ -1,4 +1,4 @@
-#Part-of-speech tagging for Spanish
+# Part-of-speech tagging for Spanish
 Part-of-speech tagging takes a text and marks grammatical information about all the words (and sometimes associated elements, like punctuation). This is a key step in enabling you to answer questions specific to language use in the text.
 
 ## 1. Download the POS tagger
@@ -147,7 +147,7 @@ If you want to try the universal dependencies tagger, you can replace *spanish-d
 - [Sample text annotated using spanish-distsim tags](muerte-distsim.txt)
 - [Sample text annotated with Universal Dependencies tags](muerte-ud.txt)
 
-## 4. Looking at the output
+## 4. Look at the output
 You can open the output in a plain text editor, which will display two columns: one with the Spanish words, and one with the part-of-speech tags.
 
 To be able to sort the results more easily, you can use Excel -- but don't try to open the file directly in Excel, because Excel will mess up the encoding and non-ASCII characters will be jibberish.
