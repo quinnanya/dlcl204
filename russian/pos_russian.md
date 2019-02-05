@@ -13,6 +13,8 @@ MyStem has [documentation about all the POS tags they use](https://tech.yandex.r
 ## 2. Prepare your text
 To use the tagger, you need to have the text you're working with saved as a Unicode (UTF-8) text file. An example text file you can use for this exercise is [the prologue to "The Compromise" by Sergei Dovlatov](kompromiss.txt).
 
+You should also name the file without any spaces; e.g. instead of *my example file.txt*, name it *my-example-file.txt*, *my_example_file.txt*, *myexamplefile.txt*. Spaces mean something else when you're working with the command line, and while there's workarounds for using a file with spaces in its name, it's easiest to just avoid it.
+
 Put your text file in the same place that you unzipped MyStem (i.e. probably in your Downloads folder). If you're comfortable navigating file paths in the command line, you can skip this step.
 
 ## 3. Run the tagger

@@ -91,6 +91,8 @@ mi **piacce
 ## 2. Prepare your text
 To use the segmenter, you need to have the text you're working with saved as a Unicode (UTF-8) text file. An example text file you can use for this exercise is [a few lines from "Una questione privata" by  Beppe Fenoglio](questione.txt).
 
+You should also name the file without any spaces; e.g. instead of *my example file.txt*, name it *my-example-file.txt*, *my_example_file.txt*, *myexamplefile.txt*. Spaces mean something else when you're working with the command line, and while there's workarounds for using a file with spaces in its name, it's easiest to just avoid it.
+
 It will be simplest for you to run the part-of-speech tagger if you copy your text file into the _tint_ folder that you unzipped. If you're comfortable navigating file paths in the command line, you can skip this step.
 
 ## 3. Run the tagger
