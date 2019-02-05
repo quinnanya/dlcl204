@@ -10,6 +10,7 @@ If you have MeCab installed and working, you should use that instead, using the 
 ##1.  Japanese POS tags
 The source of the model Rakuten MA uses isn't clearly documented, so it's hard to tell how good a fit it is going to be for any given text. There are [instructions for training a new model](https://github.com/rakuten-nlp/rakutenma#training-your-own-analysis-model-from-scratch). The tags used are:
 | Tag | Original JA name | English |
+| ---- | ---- | ---- |
 | A-c | 形容詞-一般 | Adjective-Common |
 | A-dp | 形容詞-非自立可能 | Adjective-Dependent |
 | C | 接続詞 | Conjunction |
