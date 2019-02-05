@@ -12,10 +12,10 @@ The [course syllabus](dlcl204syllabus.md) continues to be revised in response to
 ## Language-specific materials
 Language-specific tutorials for in-class activities, as well as other notes and code created to assist with students' projects, is available for the following languages:
 
-* [Chinese](chinese/readme.md)
-* [German](german/readme.md)
-* [Italian](italian/readme.md)
-* [Japanese](japanese/readme.md)
-* [Portuguese](portuguese/readme.md)
-* [Russian](russian/readme.md)
-* [Spanish](spanish/readme.md)
+* [Chinese](chinese)
+* [German](german)
+* [Italian](italian)
+* [Japanese](japanese)
+* [Portuguese](portuguese)
+* [Russian](russian)
+* [Spanish](spanish)
