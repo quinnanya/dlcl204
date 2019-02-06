@@ -134,18 +134,20 @@ _All students taking the course for 3 or more credits will submit a short propos
 
 We’ll cover part-of-speech tagging conceptually, when and why you might use it, and students will try to use language-specific code to implement it for their text. 
 
-## Thursday, February 7: Communities: Disciplinary, DH, Identity
+## Thursday, February 7: Communities: Disciplinary, DH, Identity (part 1)
 
-There are many facets to your identity as a scholar, and you may need to adjust the way you frame your work based on the venues and communities where you are presenting it. We&#39;ll talk about your experience (if any) with conferences in your discipline, and how disciplinary conferences differ from DH ones. We&#39;ll reflect on the differences in the conception of &quot;diversity&quot; in the United States vs. Europe, and how those differences have played out in the international DH conference. We&#39;ll also look at some of the DH organizations, events, and communities that are centered on different aspects of identity, including nation, language, race, and gender. This session will lay the groundwork for the paired conference proposals assignment (for students taking the course for 5 credits).
+There are many facets to your identity as a scholar, and you may need to adjust the way you frame your work based on the venues and communities where you are presenting it. We’ll talk about your experience (if any) with conferences in your discipline, and how disciplinary conferences differ from DH ones. We'll look at some examples of discipline-specific DH communities, as well as the discourse around digital humanities in other countries. We’ll reflect on the differences in the conception of “diversity” in the United States vs. Europe, and how those differences have played out in the international DH conference. This session will lay the groundwork for the paired conference proposals assignment (for students taking the course for 5 credits).
 
 ## Tuesday, February 12: Named-entity recognition & geospatial approaches (hands-on, bring laptop)
 We'll look at natural language processing tools for automatically extracting named entities (such as places). Students will try this for their own language. We’ll try transforming a list of places into geographic coordinates, and talk about the limitations of geocoding.
 
 ### 2/12 - Project proposals returned w/ feedback
 
-## Thursday, February 14: Design and DH
+## Thursday, February 14: Design and DH and Communities: Disciplinary, DH, Identity (part 2)
 
 When and how does design matter when you&#39;re working with texts? We&#39;ll talk about design in the context of personal and project web presences, as well as conference poster design, and the difference between attended and unattended posters.
+
+We'll also circle back to the earlier discussion on DH communities, how DH is discussed in other countries, and communities within DH that derive from shared interests, approaches, or identities.
 
 ## Tuesday, February 19: Creating and cleaning structured data (hands-on, please bring  laptop)
 
