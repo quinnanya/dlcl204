@@ -19,3 +19,6 @@ Language-specific tutorials for in-class activities, as well as other notes and 
 * [Portuguese](portuguese)
 * [Russian](russian)
 * [Spanish](spanish)
+
+## Other tutorials
+* [Palladio](palladio)
