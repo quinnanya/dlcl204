@@ -1,4 +1,4 @@
-# Named entity recognition for German
+# Named entity recognition for Chinese
 Named entity recognition (NER) attempts to identify proper names (and sometimes other things, like money and time) in your text. What you do with those entities depends on what they are, and what your research question is. People's names could be used (in conjunction with other information) to map networks of relationships. Locations can be geocoded and placed on a map. Time can be organized chronologically, etc.
 
 For this tutorial, we'll be focusing on location names. The end point of this tutorial will be a CSV (comma-separated values) spreadsheet file that you can use as the input of the Geocoding and Palladio Mapping tutorial.
@@ -11,17 +11,19 @@ Go to the ["Downloads" section of the page](https://stanfordnlp.github.io/CoreNL
 
 Save the zip file to your computer, and unzip it when it's done downloading. This will create a folder named *stanford-corenlp-full-2018-10-05*.
 
-Next, you'll need to download the Spanish model file. Further down [in the downloads section of the CoreNLP page](https://stanfordnlp.github.io/CoreNLP/index.html#download), there's a table with other language models. Click the download link next to "German" in the table. This will download the *stanford-german-corenlp-2018-10-05-models.jar* file. (Your computer may warn you about this type of file, but don't worry, it's safe.)
+Next, you'll need to download the Spanish model file. Further down [in the downloads section of the CoreNLP page](https://stanfordnlp.github.io/CoreNLP/index.html#download), there's a table with other language models. Click the download link next to "Spanish" in the table. This will download the *stanford-chinese-corenlp-2018-10-05-models.jar* file. (Your computer may warn you about this type of file, but don't worry, it's safe.)
 
-**Move** the *stanford-german-corenlp-2018-10-05-models.jar* file from where you downloaded it, into the *stanford-corenlp-full-2018-10-05* folder that you unzipped above.
+**Move** the *stanford-chinese-corenlp-2018-10-05-models.jar* file from where you downloaded it, into the *stanford-corenlp-full-2018-10-05* folder that you unzipped above.
 
 
 ## 2. Prepare your text
 To use the tagger, you need to have the text you're working with saved as a Unicode (UTF-8) text file. You should also name the file without any spaces; e.g. instead of *my example file.txt*, name it *my-example-file.txt*, *my_example_file.txt*, *myexamplefile.txt*. Spaces mean something else when you're working with the command line, and while there's workarounds for using a file with spaces in its name, it's easiest to just avoid it.
 
+For Chinese NER, you also need the text to be segmented in advance. See the [Chinese part-of-speech tagging tutorial](pos_chinese.md) for instructions on how to segment your text.
+
 It will be simplest for you to run the part-of-speech tagger if you copy your text file into the _stanford-corenlp-full-2018-10-05_ folder that you unzipped. If you're comfortable navigating file paths in the command line, you can skip this step.
 
-For an example text that includes many place names, you can use the [German-language Wikipedia article on Seattle](seattle-de.txt)
+For an example text that includes many place names, you can use the Chinese-language Wikipedia article on Seattle. There are two versions: one [segmented using the Chinese treebank method](seattle-zh-segmented-ctb.txt), and one [segmented using the Peking University method](seattle-zh-segmented-pku.txt). (Impressionistically, the Chinese treebank one seems to work better, but you can try both.)
 
 ## 3. Run the tagger
 **On a Mac**
@@ -32,26 +34,27 @@ Once you're in the folder, you can type `ls` and hit enter to check for the name
 
 Run the following command, replacing **yourtext.txt** with the name of your text file:
 
-`java -mx3g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLP -props StanfordCoreNLP-german.properties -annotators tokenize,ssplit,pos,ner -file yourfile.txt -outputFormat conll -output.columns word,ner`
+`java -mx3g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLP -props StanfordCoreNLP-chinese.properties -annotators tokenize,ssplit,pos,lemma,ner -file yourtext.txt -outputFormat conll -output.columns word,ner`
 
-You'll see multiple lines of text appear, and some will linger for a few seconds before the next one appears.
+You'll see multiple lines of text appear, and some may linger for a few seconds before the next one appears.
 
 If it completes successfully, you'll see some statistics (yours may vary, depending on your computer and source file) before you're given a new command prompt:
 _Annotation pipeline timing information:_
-_TokenizerAnnotator: 0.1 sec._
+_TokenizerAnnotator: 1.8 sec._
 _WordsToSentencesAnnotator: 0.0 sec._
-_POSTaggerAnnotator: 3.0 sec._
-_NERCombinerAnnotator: 0.4 sec._
-_TOTAL: 3.5 sec. for 3656 tokens at 1056.0 tokens/sec._
-_Pipeline setup: 8.6 sec._
-_Total time for StanfordCoreNLP pipeline: 12.1 sec._
+_POSTaggerAnnotator: 1.7 sec._
+_MorphaAnnotator: 0.1 sec._
+_NERCombinerAnnotator: 1.3 sec._
+_TOTAL: 4.9 sec. for 5261 tokens at 1076.7 tokens/sec._
+_Pipeline setup: 15.4 sec._
+_Total time for StanfordCoreNLP pipeline: 20.3 sec._
 
-These statistics show all the things that the command you entered did: first it tokenized the text (identified words), then identified the sentences, then did part-of-speech tagging. All of this is a prerequisite for the named entity recognition; if you removed the things besides *ner* from the *-annotators* part of the command, you'd get an error message. Finally, after all this pre-processing, Stanford CoreNLP performed the NER annotation. On my computer, with the sample German-language Wikipedia article on Seattle, the entire pipeline took 12.1 seconds and 3656 tokens (words) were annotated.
+These statistics show all the things that the command you entered did: first it tokenized the text (identified words), then identified the sentences, then did part-of-speech tagging, and then identified the dictionary form of all the words. All of this is a prerequisite for the named entity recognition; if you removed the things besides *ner* from the *-annotators* part of the command, you'd get an error message. Finally, after all this pre-processing, Stanford CoreNLP performed the NER annotation. On my computer, with the sample Chinese-language Wikipedia article on Seattle, the entire pipeline took 20.3 seconds and 5261 tokens (words) were annotated.
 
 If you look at your *stanford-corenlp-full-2018-10-05* folder, you'll see a new file there, with the same name as your input file except with *.conll* at the end (so **yourtext.txt** will generate **yourtext.txt.conll**.)
 
 ## 4. Clean up the output
-You can open the .conll file created above in a plain text editor (like [Atom](https://atom.io/), cross-platform, or [TextMate](https://macromates.com/), Mac only), which will display two columns: one with the German words, and one with the named entity recognition annotations.
+You can open the .conll file created above in a plain text editor (like [Atom](https://atom.io/), cross-platform, or [TextMate](https://macromates.com/), Mac only), which will display two columns: one with the Chinese words, and one with the named entity recognition annotations.
 
 Open the file, and copy everything in it. Next, go to your favorite spreadsheet program (e.g. Google Docs sheets, Numbers, or Excel) and create a new blank document. Click in the upper left cell of the spreadsheet, and paste all the values. They should arrange themselves in two columns.
 
@@ -59,13 +62,24 @@ Next, select all the data and sort it by column B (the column with the NER annot
 
 You'll see multiple different annotations, potentially including:
 
+* Cause of death
+* City
+* Country
+* Date
+* Demonym
+* Facility
+* GPE (geopolitical entity)
+* Ideology
 * Location
 * Misc
+* Money
+* Nationality
+* Number
 * O (not recognized as a named entity)
 
-Create a new, blank spreadsheet. Copy all rows with *Location* in the annotation column, and paste them into the new spreadsheet.
+Create a new, blank spreadsheet. Copy all rows with *City*, *Country*, *GPE*, or *Location* in the annotation column, and paste them into the new spreadsheet.
 
-You may want to clean up the data in this new spreadsheet (e.g. combining multi-word place names, like *Bainbridge Island*, into a single cell). If you don't do this, those places won't be found when we try to look up their coordinates using a geocoder.
+You may want to clean up the data in this new spreadsheet (e.g. fixing up any place names that have been split across rows), into a single cell). If you don't do this, those places won't be found when we try to look up their coordinates using a geocoder.
 
 Don't remove duplicate listings, though: these duplicates will have a purpose once we start mapping with Palladio.
 
