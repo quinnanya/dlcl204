@@ -80,8 +80,8 @@ Don't remove duplicate listings, though: these duplicates will have a purpose on
 
 Once you're done with your cleanup, select all of column B (with the annotations), and delete it, leaving only a single column of place names.
 
-##5. Save your list of places
+## 5. Save your list of places
 Once you're done cleaning the data as described above, save your data (which should be just a single column of place names) as **places.csv**. If you name the file something else, or use different capitalization, etc., you'll have to change the Python code that does the coordinate lookup. It's easier to just name it **places.csv**.
 
-##6. Move on to Geocoding and Palladio Mapping Tutorial
+## 6. Move on to Geocoding and Palladio Mapping Tutorial
 You're done with the language-specific part! Next, move on to the [Geocoding and Palladio Mapping Tutorial](/palladio/geocoding_palladio_mapping.md).
