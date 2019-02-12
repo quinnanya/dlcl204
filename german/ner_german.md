@@ -1,4 +1,4 @@
-# Named entity recognition for Spanish
+# Named entity recognition for German
 Named entity recognition (NER) attempts to identify proper names (and sometimes other things, like money and time) in your text. What you do with those entities depends on what they are, and what your research question is. People's names could be used (in conjunction with other information) to map networks of relationships. Locations can be geocoded and placed on a map. Time can be organized chronologically, etc.
 
 For this tutorial, we'll be focusing on location names. The end point of this tutorial will be a CSV (comma-separated values) spreadsheet file that you can use as the input of the Geocoding and Palladio Mapping tutorial.
@@ -11,9 +11,9 @@ Go to the ["Downloads" section of the page](https://stanfordnlp.github.io/CoreNL
 
 Save the zip file to your computer, and unzip it when it's done downloading. This will create a folder named *stanford-corenlp-full-2018-10-05*.
 
-Next, you'll need to download the Spanish model file. Further down [in the downloads section of the CoreNLP page](https://stanfordnlp.github.io/CoreNLP/index.html#download), there's a table with other language models. Click the download link next to "Spanish" in the table. This will download the *stanford-spanish-corenlp-2018-10-05-models.jar* file. (Your computer may warn you about this type of file, but don't worry, it's safe.)
+Next, you'll need to download the Spanish model file. Further down [in the downloads section of the CoreNLP page](https://stanfordnlp.github.io/CoreNLP/index.html#download), there's a table with other language models. Click the download link next to "German" in the table. This will download the *stanford-german-corenlp-2018-10-05-models.jar* file. (Your computer may warn you about this type of file, but don't worry, it's safe.)
 
-**Move** the *stanford-spanish-corenlp-2018-10-05-models.jar* file from where you downloaded it, into the *stanford-corenlp-full-2018-10-05* folder that you unzipped above.
+**Move** the *stanford-german-corenlp-2018-10-05-models.jar* file from where you downloaded it, into the *stanford-corenlp-full-2018-10-05* folder that you unzipped above.
 
 
 ## 2. Prepare your text
@@ -21,7 +21,7 @@ To use the tagger, you need to have the text you're working with saved as a Unic
 
 It will be simplest for you to run the part-of-speech tagger if you copy your text file into the _stanford-corenlp-full-2018-10-05_ folder that you unzipped. If you're comfortable navigating file paths in the command line, you can skip this step.
 
-For an example text that includes many place names, you can use the [Spanish-language Wikipedia article on Seattle](seattle-es.txt)
+For an example text that includes many place names, you can use the [German-language Wikipedia article on Seattle](seattle-de.txt)
 
 ## 3. Run the tagger
 **On a Mac**
@@ -32,22 +32,21 @@ Once you're in the folder, you can type `ls` and hit enter to check for the name
 
 Run the following command, replacing **yourtext.txt** with the name of your text file:
 
-`java -mx3g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLP -props StanfordCoreNLP-spanish.properties -annotators tokenize,ssplit,pos,lemma,ner -file yourtext.txt -outputFormat conll -output.columns word,ner`
+`java -mx3g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLP -props StanfordCoreNLP-german.properties -annotators tokenize,ssplit,pos,ner -file yourfile.txt -outputFormat conll -output.columns word,ner`
 
-You'll see multiple lines of text appear, including some warnings like _[main] WARN edu.stanford.nlp.pipeline.TokensRegexNERAnnotator - Number in types column for [anti, psiquiatría] is probably priority: 2_. Don't worry about these.
+You'll see multiple lines of text appear, and some will linger for a few seconds before the next one appears.
 
 If it completes successfully, you'll see some statistics (yours may vary, depending on your computer and source file) before you're given a new command prompt:
 _Annotation pipeline timing information:_
-_TokenizerAnnotator: 0.3 sec._
+_TokenizerAnnotator: 0.1 sec._
 _WordsToSentencesAnnotator: 0.0 sec._
-_POSTaggerAnnotator: 0.6 sec._
-_MorphaAnnotator: 0.1 sec._
-_NERCombinerAnnotator: 2.5 sec._
-_TOTAL: 3.5 sec. for 7063 tokens at 2010.0 tokens/sec._
-_Pipeline setup: 4.5 sec._
-_Total time for StanfordCoreNLP pipeline: 8.0 sec._
+_POSTaggerAnnotator: 3.0 sec._
+_NERCombinerAnnotator: 0.4 sec._
+_TOTAL: 3.5 sec. for 3656 tokens at 1056.0 tokens/sec._
+_Pipeline setup: 8.6 sec._
+_Total time for StanfordCoreNLP pipeline: 12.1 sec._
 
-These statistics show all the things that the command you entered did: first it tokenized the text (identified words), then identified the sentences, then did part-of-speech tagging, and then identified the dictionary form of all the words. All of this is a prerequisite for the named entity recognition; if you removed the things besides *ner* from the *-annotators* part of the command, you'd get an error message. Finally, after all this pre-processing, Stanford CoreNLP performed the NER annotation. On my computer, with the sample Spanish-language Wikipedia article on Seattle, the entire pipeline took 8 seconds and 7063 tokens (words) were annotated.
+These statistics show all the things that the command you entered did: first it tokenized the text (identified words), then identified the sentences, then did part-of-speech tagging. All of this is a prerequisite for the named entity recognition; if you removed the things besides *ner* from the *-annotators* part of the command, you'd get an error message. Finally, after all this pre-processing, Stanford CoreNLP performed the NER annotation. On my computer, with the sample German-language Wikipedia article on Seattle, the entire pipeline took 12.1 seconds and 3656 tokens (words) were annotated.
 
 If you look at your *stanford-corenlp-full-2018-10-05* folder, you'll see a new file there, with the same name as your input file except with *.conll* at the end (so **yourtext.txt** will generate **yourtext.txt.conll**.)
 
