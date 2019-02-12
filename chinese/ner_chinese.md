@@ -25,7 +25,7 @@ It will be simplest for you to run the part-of-speech tagger if you copy your te
 
 For an example text that includes many place names, you can use the Chinese-language Wikipedia article on Seattle. There are two versions: one [segmented using the Chinese treebank method](seattle-zh-segmented-ctb.txt), and one [segmented using the Peking University method](seattle-zh-segmented-pku.txt). (Impressionistically, the Chinese treebank one seems to work better, but you can try both.)
 
-## 3. Run the tagger
+## 3. Run the annotator
 **On a Mac**
 Open a new terminal window, and navigate to the *stanford-corenlp-full-2018-10-05* folder. Unless you saved it somewhere else, you should be able to enter:
 `cd Downloads/stanford-corenlp-full-2018-10-05`
