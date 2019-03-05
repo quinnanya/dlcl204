@@ -4,7 +4,7 @@ Part-of-speech tagging takes a text and marks grammatical information about all 
 ## 1. Download the POS tagger
 The [Stanford part-of-speech tagger](https://nlp.stanford.edu/static/software/tagger.shtml) includes code for performing part-of-speech tagging, along with a number of language-specific models that have been trained on different kinds or quantities of texts, and that use different sets of grammatical tags.
 
-Go to the ["Downloads" section of the page](https://nlp.stanford.edu/static/software/tagger.shtml#Download) and click on "Download full Stanford Tagger version 3.6.0 [124 MB]" (the available version number may vary.)
+Go to the ["Downloads" section of the page](https://nlp.stanford.edu/static/software/tagger.shtml#Download) and click on "Download full Stanford Tagger version 3.6.0 [124 MB]" (the available version number may vary.) **Note**: you need to install the *full* Stanford tagger to get the data for languages other than English. Be sure that you're downloading the full version, which is listed second on the downloads page.
 
 Save the zip file to your computer, and unzip it when it's done downloading.
 

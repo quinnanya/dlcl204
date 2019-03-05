@@ -5,7 +5,7 @@ import json
 
 geolocator = GeoNames(username='YOUR-USERNAME-HERE')  # Register at Geonames
 
-with open('places.csv','r') as f:
+with open('places.csv','r', encoding='utf-8') as f:
     for line in f:
         for word in line.split():
            location = geolocator.geocode(word, timeout=10)
