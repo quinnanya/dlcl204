@@ -2,3 +2,4 @@
 
 * [Part-of-speech tagging tutorial for Chinese](pos_chinese.md)
 * [Named entity recognition tutorial for Chinese](ner_chinese.md)
+* [Taiwanese rap analyzer Jupyter notebook](taiwanese-rap-analyzer.ipynb)
