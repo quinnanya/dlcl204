@@ -133,25 +133,47 @@ _All students taking the course for 3 or more credits will submit a short propos
 ## Tuesday, February 5: Part-of-speech tagging (hands-on, please bring laptop)
 
 We’ll cover part-of-speech tagging conceptually, when and why you might use it, and students will try to use language-specific code to implement it for their text. 
+-   [Language-specific tutorials on Github](https://github.com/quinnanya/dlcl204)
+-   [CONLL-U viewer](https://universaldependencies.org/conllu_viewer.html) (CONLL-U files for languages are in Github)
+-   [Example of training a POS tagger](https://medium.com/@dataturks/opennlp-training-your-own-custom-pos-tagger-fc46dc8fa813) (brand names)
+-   [Example of training Stanford NLP tagger](http://renien.com/blog/training-stanford-pos-tagger/) (retail)
+-   Article: "[Part-of-speech tagging for English-Spanish code-switched text](https://dl.acm.org/citation.cfm?doid=1613715.1613852)"
 
 ## Thursday, February 7: Communities: Disciplinary, DH, Identity (part 1)
 
 There are many facets to your identity as a scholar, and you may need to adjust the way you frame your work based on the venues and communities where you are presenting it. We’ll talk about your experience (if any) with conferences in your discipline, and how disciplinary conferences differ from DH ones. We'll look at some examples of discipline-specific DH communities, as well as the discourse around digital humanities in other countries. We’ll reflect on the differences in the conception of “diversity” in the United States vs. Europe, and how those differences have played out in the international DH conference. This session will lay the groundwork for the paired conference proposals assignment (for students taking the course for 5 credits).
+-   [Humanities Commons (platform for scholarly networks, including MLA and ASEEES)](https://hcommons.org/)
+-   [Association for Computers and the Humanities (ACH, US-based professional organization for DH)](http://ach.org/)
+-   [Alliance of Digital Humanities Organizations (ADHO, runs annual conference)](http://adho.org/)
+-   [Drafts and discussion for ADHO governance framework](https://change.adho.org/)
+-   [Scott Weingart's blog posts analyzing submissions to international DH conference](http://scottbot.net/tag/dhconf/)
+
 
 ## Tuesday, February 12: Named-entity recognition & geospatial approaches (hands-on, bring laptop)
 We'll look at natural language processing tools for automatically extracting named entities (such as places). Students will try this for their own language. We’ll try transforming a list of places into geographic coordinates, and talk about the limitations of geocoding.
 
 ### 2/12 - Project proposals returned w/ feedback
 
-## Thursday, February 14: Design and DH and Communities: Disciplinary, DH, Identity (part 2)
+## Thursday, February 14: Posters and DH and Communities: Disciplinary, DH, Identity (part 2)
 
-When and how does design matter when you&#39;re working with texts? We&#39;ll talk about design in the context of personal and project web presences, as well as conference poster design, and the difference between attended and unattended posters.
+How do you actually go about creating a poster for an academic conference?
 
 We'll also circle back to the earlier discussion on DH communities, how DH is discussed in other countries, and communities within DH that derive from shared interests, approaches, or identities.
+
+-   [Guide to making a conference poster](https://colinpurrington.com/tips/poster-design)
+-   Greg Crane, [Digital Humanities in Germany](https://docs.google.com/document/d/1JpMn-DYY6lhrBr_HPPQmtrdjg4bCfEpV6Aj4f8fFh7o/edit#)
+-   [AI for the Tale of Genji (Japanese)](https://ai-scholar.tech/2018/12/12/ai-character-recognition-45/)
+-   Juan Luis Suárez, translated by Élika Ortega, [Digital Humanities in Spanish?](http://dayofdh2014.matrix.msu.edu/redhd/2014/04/08/digital-humanities-in-spanish/)
+-	Paola Ricaurte, [Geopolitics of Knowledge and Digital Humanities](http://dayofdh2014.matrix.msu.edu/redhd/2014/04/09/geopolitics-of-knowledge-and-digital-humanities/)
+-	Domenico Fiormonte, [Towards a Cultural Critique of Digital Humanities](http://dhdebates.gc.cuny.edu/debates/text/86)
+-	[DH-WoGeM: Women and Gender Minorities in DH](http://dhwogem.org)
+
 
 ## Tuesday, February 19: Creating and cleaning structured data (hands-on, please bring  laptop)
 
 Some kinds of analysis and visualization require some kind of structured data as an input: you can&#39;t simply use a full digital text. We&#39;ll talk about some common kinds of structured data, and how to use _OpenRefine_ to reduce or eliminate inconsistencies in that data (&quot;cleaning&quot; it). We&#39;ll try transforming a list of places into geographic coordinates, and talk about the limitations of geocoding. Finally, we&#39;ll take our data (either newly-created from your own texts, or example data) and try it with _Palladio_, a simple visualization tool designed for humanistic inquiry.
+
+
 
 ## Thursday, February 21:  Palladio & visualization (hands-on, please bring laptop)
 
