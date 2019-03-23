@@ -22,7 +22,7 @@ The course will use contract grading, where students choose what grade they wish
 
 This course will involve reading less primary and secondary literature than most courses in the humanities, and there will be neither papers nor exams. Instead, you&#39;ll get experience with reading and producing different kinds of scholarly production: digital projects, conference proposals, blog posts, posters, tutorials, and technical documentation. While the word count for each of these is much less than a typical paper assignment, you may find that writing clearly and succinctly is a greater challenge than putting together a 10-page paper. The number of assignments required will depend on how many credits you&#39;re enrolled for, and what grade you&#39;ve contracted for (see appendix). In lieu of extensive readings for each class, you&#39;ll be expected to spend some time experimenting with your text corpus and the tools and methods we&#39;ve discussed (or others you&#39;ve found). We&#39;ll begin each class talking about challenges and breakthroughs you&#39;ve experienced. Contributing to these discussions is an important part of class participation.
 
-# Weekly schedule (tentative)
+# Weekly schedule
 
 ## Tuesday, January 8: Introductions
 
@@ -111,7 +111,7 @@ Text digitization – be it through OCR or transcription – is a time-consuming
 
 We'll have an open day where you can experiment with your text using Voyant, or venture into language-specific tools and resources. This is a good opportunity to check in with Quinn if you have questions about what you might do for your project.
 
-## Thursday, January 31: Topic modeling & documentation
+## Thursday, January 31: Topic modeling
 
 We'll look at examples of DH-specific technical documentation vs. general-purpose documentation, and work through the example of Miriam Posner's tutorial for the Topic Modeling Tool as well as interpreting the results from the Topic Modeling Tool.
 
@@ -154,7 +154,7 @@ We'll look at natural language processing tools for automatically extracting nam
 
 ### 2/12 - Project proposals returned w/ feedback
 
-## Thursday, February 14: Posters and DH and Communities: Disciplinary, DH, Identity (part 2)
+## Thursday, February 14: Posters and Communities: Disciplinary, DH, Identity (part 2)
 
 How do you actually go about creating a poster for an academic conference?
 
@@ -181,15 +181,15 @@ We’ll continue our exploration of Palladio and discuss other general-purpose v
 
 ## Tuesday, February 26: Network analysis (hands-on, please bring laptop)
 
-Palladio can turn a spreadsheet of data into a network that you can see. To turn a spreadsheet of data into a quantified network that you can meaningfully compare with other data, you need a network analysis tool, and a basic understanding of network analysis. We’ll talk about some major concepts behind network analysis, and will try our example data with Gephi, one of the most widely-used pieces of software for network analysis.
+Palladio can turn a spreadsheet of data into a network that you can see. To turn a spreadsheet of data into a quantified network that you can meaningfully compare with other data, you need a network analysis tool, and a basic understanding of network analysis. We'll cover some basic concepts in network analysis and try to create a network using Palladio.
 
-## Thursday, February 28: Stylometry (hands-on, please bring laptop)
+## Thursday, February 28: Tableau (hands-on, please bring laptop)
 
-Computational stylistics has been used for authorship attribution and detecting changes in authorship, looking at the impact of gender or background on literary production, and analyzing genre. We’ll use the R programming language to run the stylo package on your text corpus, or an example corpus, if yours isn’t a good fit.
+Tablaeu is an increasingly widely used tool for creating complex visualizations without writing code. This class will be an overview of how to navigate the basic Tableau interface.
 
-## Tuesday, March 5: Placeholder
+## Tuesday, March 5: Network analysis with Cytoscape
 
-The syllabus is still probably overly ambitious. This placeholder can be a chance to catch up on things that people want to cover that we haven't gotten to.
+We'll cover some more advanced concepts in network analysis, and create a more sophisticated network visualization using Cytoscape.
 
 ## Thursday, March 7: Open Lab Day #2
 
