@@ -8,8 +8,6 @@ If you're interested in taking the course (participating virtually, with or with
 
 *Course hashtag: #dlcl204*
 
-## Video
-Because hanging up posters isn't meaningful right now, I've put together a [course promo video](dlcl204_fall2020.mov).
 
 ## Syllabus
 The course syllabus is still under construction to reflect the online-only format, but you can check out the [course syllabus from 2019](dlcl204syllabus.md).
