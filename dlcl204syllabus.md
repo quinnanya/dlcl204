@@ -1,10 +1,10 @@
 # Digital Humanities Across Borders
 
-_DLCL 204, CompLit 204A, English 204_
+_DLCL 204, CompLit 204A_
 
-_Winter 2018_
+_Fall 2020_
 
-_Tu/Th 1:30-2:50_
+_Asynchronous online_
 
 Quinn Dombrowski (DLCL Academic Technology Specialist)
 
@@ -14,286 +14,112 @@ English-language resources have dominated the discourse of digital humanities ac
 
 # Credits / Grading
 
-This course will be offered for between 1-5 credits, and for either a grade or credit/no credit. Students who wish to take it as part of the DH Minor must choose 5 credits (if taken as a core course) or 3 credits (if taken as an elective) and must take it for a letter grade.
+This course will be offered at Stanford for 3-5 credits, and for either a grade or credit/no credit. Students who wish to take it as part of the DH Minor must choose 5 credits (if taken as a core course) or 3 credits (if taken as an elective) and must take it for a letter grade.
 
-The course will use contract grading, where students choose what grade they wish to receive, and write a contract (within defined parameters) at the beginning of the quarter that lays out the requirements for receiving that grade. Individual assignments will receive extensive feedback but will be graded as satisfactory / unsatisfactory. Students will have one week to revise unsatisfactory assignments to fulfill the terms of their contract. If a student is unable to fulfill the terms of their original contract, they will meet with the instructor and sign a new contract for a different grade. Parameters for a &quot;A&quot; grade contracts for each of the credit levels are included an appendix to this draft syllabus, and the full rubrics for each level will be available on the first day of class.
+The course will use contract grading, where students choose what grade they wish to receive, and write a contract (within defined parameters) at the beginning of the quarter that lays out the requirements for receiving that grade. Individual assignments will receive extensive feedback but will be graded as accepted / needs revisions. Students will have one week to revise assignments that need revisions to fulfill the terms of their contract. If a student is unable to fulfill the terms of their original contract, they will meet with the instructor and sign a new contract for a different grade.
 
 # Assignments
 
-This course will involve reading less primary and secondary literature than most courses in the humanities, and there will be neither papers nor exams. Instead, you&#39;ll get experience with reading and producing different kinds of scholarly production: digital projects, conference proposals, blog posts, posters, tutorials, and technical documentation. While the word count for each of these is much less than a typical paper assignment, you may find that writing clearly and succinctly is a greater challenge than putting together a 10-page paper. The number of assignments required will depend on how many credits you&#39;re enrolled for, and what grade you&#39;ve contracted for (see appendix). In lieu of extensive readings for each class, you&#39;ll be expected to spend some time experimenting with your text corpus and the tools and methods we&#39;ve discussed (or others you&#39;ve found). We&#39;ll begin each class talking about challenges and breakthroughs you&#39;ve experienced. Contributing to these discussions is an important part of class participation.
+This course will involve doing less reading than most courses in the humanities, and there will be neither papers nor exams. Instead, you&#39;ll get experience with reading and producing different kinds of scholarly production through 3-4 "major assignments" that will take the form of some alternative mode of scholarly production (e.g. conference proposals, posters, tutorials, blog posts, podcasts, videos, games).
+
+In lieu of synchronous in-class discussion, there'll be weekly readings to comment on and discuss with your classmates using the Hypothes.is annotation tool (which may be available through Canvas, or may require a separate browser plug-in.) This syllabus will be updated with those readings after the course starts, as the selection of texts will be shaped by students' languages and interests. Occasionally, there'll be video lectures to watch, with opportunities to ask questions and discuss using the course message board. I'll also try to arrange and record an interview with someone doing DH work in each of the languages students are working with, and you'll have an opportunity to contribute questions to those interviews.
+
+## Major assignments
+
+Your path through this course will be shaped by the language and text you're working with, and your research questions / area of inquiry. Almost all text-based DH projects share the same broad trajectory:
+
+* **Text acquisition**: Getting the text in a form that you can use for the subsequent steps. Can include scanning, OCR (turning pictures of text into editable text), handwritten text recognition, web scraping, etc.
+* **Enrichment**: Doing something to your text to make it possible to do analysis / visualization. May include various forms of cleaning the data, annotating it (manually, or using algorithms to extract person and place names), adding metadata, etc.
+* **Analysis/visualization**: Analyzing or visualizing the text in some way using the enrichment you've done. Includes things like topic modeling, text comparison, network analysis, mapping, etc.
+* **Interpretation**: What sense can you actually make of the analysis, given what you know already about the subject matter? 
+
+The course will be broken up into segments based on these different phases. Students will complete one major assignment for text acquisition, enrichment, and analysis/visualization (3 credits). 5-credit students will also complete a major assignment for interpretation. 
+
+Major assignments can take many different formats, for instance:
+
+* A set of texts that you've scanned and OCR'd, with a 1-page written reflection on the process (what worked well, what was challenging, what surprised you, etc.)
+* A collaborative podcast with some of the other students working on the same language or tool, comparing your experiences working on a particular phase of the project
+* A step-by-step tutorial for how to use one of the tools for your project, including details specific to your language
+* A pair of conference proposals for your project, one for a conference in your discipline, and another for a DH conference
+* A choose-your-own-adventure game/story that takes the reader through major decision points when working on a textual DH project in your language
+
+I'll prepare some examples before the class starts, but other creative formats are also welcome! Check with me if you have any questions.
+
+By default, each major assignment will be due after the corresponding phase of the class, to help you stay on track throughout the quarter. That said, the deadlines can be flexible if you need more time on one or more of the assignments; please let me know if you'd like an extension. All work should be turned in by November 30th at the latest, so I can get you feedback and you can do any revisions prior to the *absolutely final deadline* of December 4th (grades are due on the 8th).
+
 
 # Weekly schedule
 
-## Tuesday, January 8: Introductions
+## Week 1 (September 21): Introductions
+One of the challenges of teaching this course is that I don't know what languages people are interested in until they arrive. (If you're enrolling in the class, it helps if you email me in advance and let me know what language you'll be working with!) The first week will give us a chance to get to know one another, and I'll try to find some existing DH work that might resonate with your linguistic and topical interests. I'll also share a few different perspectives on what DH is, and what it looks like in practice to do DH work.
 
-We&#39;ll go over the syllabus, make sure everyone is signed up for the right number and type of credits, and talk about contract grading. By way of context for the course, I&#39;ll share a few things about my own background with non-English digital humanities. We&#39;ll talk about definitions of digital humanities, and touch on what this course won&#39;t be covering.
-
-## Thursday, January 10: DH and disciplinary (sub-)cultures
-
-We&#39;ll discuss examples of the kinds of research questions that this course can help you learn how to answer. We&#39;ll also talk about some of the sub-cultures and divisions within DH, as well as unifying values shared by much of DH. We&#39;ll touch on how DH intersects with data science, statistics, and programming, and how different people contextualize their DH work with respect to those areas of study, as well as traditional humanistic fields. We&#39;ll also look at examples of tutorials, recipes, and documentation to lay a foundation for a future tutorial assignment.
-
-- Literary questions
-  - Text markup: [TEI Consortium](http://www.tei-c.org/)
-  - Counting words: see Katherine Faull, &quot;Visualization &amp; Literary Analysis&quot; (for class use only)
-  - Counting certain kinds of words: see Craig Messner, &quot;Syntactic Analysis as Literary Criticism&quot; (class use only)
-  - Stylometry: see Maciej Eder et al, &quot;Measuring Style&quot; (class use only)
-  - Topic modeling: see Shawna Ross &amp; Randa El Khatib, &quot;Digital Theme Analysis&quot; (class use only)
-    - David Blei, &quot;[Topic Modeling and Digital Humanities](http://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/)&quot;,
-    - Teddy Rowland, &quot;[Topic Modeling: What Humanists Actually Do With It](http://digitalhumanities.berkeley.edu/blog/16/07/14/topic-modeling-what-humanists-actually-do-it-guest-post-teddy-roland-university)&quot;
-    - Lisa M. Rhody, &quot;[Topic Modeling and Figurative Language](http://journalofdigitalhumanities.org/2-1/topic-modeling-and-figurative-language-by-lisa-m-rhody/)&quot;
-    - Benjamin M. Schmidt, &quot;[Words Alone: Dismantling Topic Models in the Humanities](http://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/)&quot;
-  - Word vectors: Ryan Heuser, &quot;Word Vectors in the Eighteenth Century&quot; ([part 1 – concepts](http://ryanheuser.org/word-vectors-1/), and [part 2 - methods](http://ryanheuser.org/word-vectors-2/))
-    - Wohlgenannt et al. &quot;[Extracting Social Networks from Literary Text with Word Embedding Tools](https://aclanthology.coli.uni-saarland.de/papers/W16-4004/w16-4004)&quot;
-  - Geospatial: see Diane Jakacki &amp; Janelle Jenstad, &quot;Mapping the Literary&quot; (class use only)
-  - Sentiment analysis: Matthew Jockers, &quot;[Revealing Sentiment Analysis and Plot Arcs with the Syuzhet Package](http://www.matthewjockers.net/2015/02/02/syuzhet/)&quot; (and follow-up &quot;[The Rest of the Story](http://www.matthewjockers.net/2015/02/25/the-rest-of-the-story/)&quot;);  Annie Swafford &quot;[Problems with the Syuzhet Package](https://annieswafford.wordpress.com/2015/03/02/syuzhet/)&quot; (and [related blog posts](https://annieswafford.wordpress.com/category/syuzhet/)); Matthew Jockers &quot;[Requiem for a Low-Pass Filter](http://www.matthewjockers.net/2015/04/06/epilogue/)&quot;
-  - Network analysis: see Graham Sack &amp; Scott Weingart, &quot;Literary Network Analysis&quot; (class use only)
-    - David McClure, &quot;[Tuning Textplot](http://dclure.org/logs/tuning-textplot/)&quot;
-- Triangulating identities &amp; roles
-  - [Alex Saum-Pascual](http://www.alexsaum.com/), UC Berkeley
-    - [Electronic Literature: A Critical Writing and Making Course](http://eliterature.digitalhumanities.berkeley.edu/)
-  - [David Birnbaum](http://obdurodon.org/), University of Pittsburgh
-  - [Molly des Jardin](http://www.mollydesjardin.com/), University of Pennsylvania
-  - [Jeff Tharsen](http://tharsen.net/), University of Chicago
-
-## Tuesday, January 15: Digitizing and digitized text (hands-on, please bring laptop)
-
-Digital text is a prerequisite for any of the analytical and visualization tools that we&#39;ll be looking at, but it&#39;s not where many projects begin. We&#39;ll talk about scanning or photographing textual documents and using Optical Character Recognition (OCR) to convert them to digital text. We&#39;ll talk about how good is &quot;good enough&quot; for OCR quality, and how you can improve it. Once you have digital text, we&#39;ll look at _Voyant_, a straightforward tool for looking at your text in new ways – but it requires that your text have words separated by spaces. We&#39;ll talk about word segmenter tools that can make Voyant and similar tools usable for languages that don&#39;t use spaces.
-- OCR and its relevance
-  - Ryan Cordell, [Why You (A Humanist) Should Care About Optical Character Recognition](https://ryancordell.org/research/why-ocr/)
-  - Ian Milligan, [Illusionary Order: Online Databases, Optical Character Recognition, and Canadian History, 1997–2010](http://muse.jhu.edu.stanford.idm.oclc.org/article/527016)
-  - Ryan Cordell &amp; David Smith, [A Research Agenda for Historical and Multilingual Optical Character Recognition](https://repository.library.northeastern.edu/files/neu:f1881m035)
-- OCR software
-  - [ABBYY FineReader (Windows)](https://www.abbyy.com/en-us/finereader/)
-  - [ABBYY FineReader (Mac, not as good)](https://www.abbyy.com/en-us/finereader/pro-for-mac/)
-  - [ABBYY FineScanner (mobile)](https://www.finescanner.com/en/?utm_source=AbbyyCom&amp;utm_medium=MobileProductsPage&amp;utm_campaign=FineScanner)
-  - [Tesseract (open source, cross-platform)](https://github.com/tesseract-ocr/tesseract/wiki)
-  - [Installing Tesseract (more detailed information)](http://guides.library.illinois.edu/c.php?g=347520&amp;p=4121425)
-- OCR errors
-  - Ryan Cordell, &quot;[&#39;Q i-jtb the Raven&#39;: Taking Dirty OCR Seriously](http://ryancordell.org/research/qijtb-the-raven/)&quot; (English)
-  - David Birnbaum, [OCR report for](http://bdinski.obdurodon.org/ocr-procedure.html)[_Bdinski sbornik_](http://bdinski.obdurodon.org/ocr-procedure.html)[project](http://bdinski.obdurodon.org/ocr-procedure.html) (Russian)
-  - Donald Sturgeon, [Unsupervised Extraction of Training Data](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/view/15490/15011)
-  - [for Pre-Modern Chinese OCR](https://aaai.org/ocs/index.php/FLAIRS/FLAIRS17/paper/view/15490/15011)
-- Word segmentation for Chinese &amp; Japanese
-  - Marko Valentin Micic &amp; Hugo Chu. [Hyperbolic Deep Learning for Chinese Natural Language Understanding](https://arxiv.org/abs/1812.10408v1?fbclid=IwAR0_m5UYv6C5hhQuNZfpBvSs4DiFWGYQtrHNxO_fsLkK8x2__51Y4_PgnF8).
-  - [Stanford NLP word segmenter for Chinese](https://nlp.stanford.edu/software/segmenter.shtml)
-  - [Jieba](https://github.com/fxsjy/jieba) segmenter module for Python (Chinese)
-  - [TinySegmenter](http://chasen.org/~taku/software/TinySegmenter/) (Japanese, browser-based)
-- Text exploration with [Voyant](https://voyant-tools.org/) (tokenizing built-in for Japanese)
+During week 1, I'll start holding 1:1 meetings with students to talk about what they're interested in working on this quarter.
 
 
-## Thursday, January 17: &quot;Data&quot;
+## Week 2 (September 28): Pathfinding / Text acquisition
+During week 2, I'll continue holding 1:1 meetings with students to plan out the quarter. As those plans take shape, I'll start organizing meet-ups with groups of students, based on shared languages and/or tools. These will take place throughout the quarter.
 
-We'll consider whether (and how) DH has "data", and what the difference is between a text and data. (Special thanks to Miriam Posner for sharing her notes from "Data Trouble").
+Students will start to work on the text acquisition phase of their project.
 
--   Miriam Posner, "[Humanities Data: A Necessary Contradiction](http://miriamposner.com/blog/humanities-data-a-necessary-contradiction/)" 
--   Isaac Gilman, "[From Marginalization to Accessibility: Classification of Indigenous Materials](https://commons.pacificu.edu/cgi/viewcontent.cgi?article=1005&context=libfac)" -- on Maori subject headings
--   [Black code studies](https://sites.duke.edu/dcore/2017/08/07/introduction-to-black-code-studies-wild-seed-in-the-machine/)
-    -   [Shaka McGlotten](http://sfonline.barnard.edu/traversing-technologies/shaka-mcglotten-black-data/)
-    -   [Tressie McMillan Cottom](https://tressiemc.com/)
-    -   [Jessica M. Johnson](https://jmjohnso.com/)
-    -   [Simone Browne](https://www.dukeupress.edu/dark-matters)
-    -   [Gabrielle Foreman](https://www.english.udel.edu/people/gforeman)
-    -   [Safiya Noble](https://safiyaunoble.com/)
-    -   [Mark Anthony Neal](https://aaas.duke.edu/people/mark-anthony-neal)
-    -   [Mimi Onuoha](http://mimionuoha.com/writing/)
--   Miriam Posner, "Data Trouble: Why Humanists Have Problems with Datavis, and Why Anyone Should Care" [YouTube video](https://www.youtube.com/watch?v=sW0u1pNQNxc)
+## Week 3 (October 5): Text acquisition
+Students will continue to work on text acquisition during week 3, and will prepare their assignment for the text acquisition phase. I'll be available throughout the week for troubleshooting help and advice.
 
+## Week 4 (October 12): Enrichment
+Students will work on enriching the texts they acquired in the first phase, and will finish their text acquisition major assignment.
 
-## Tuesday, January 22: Unicode
+## October 16: Major assignment 1 due
+The text acquisition major assignment is due, unless you've arranged for a different due date.
 
-If you work with a language that doesn&#39;t use unaccented Latin characters, you can now be fairly confident that your digital text will be readable on most or all devices. That wasn&#39;t always the case, and we have the Unicode consortium to thank for the tremendous progress made over the last 30 years. We&#39;ll have a special guest lecture from Debbie Anderson, a researcher in linguistics at UC Berkeley, and the director of the Script Encoding Initiative, a project devoted to the preparation of formal proposals for the encoding of scripts and script elements not yet currently supported in Unicode. She&#39;ll explain what Unicode is, how it works, and will talk about the research, design, and community consensus work that goes into adding characters to Unicode.
+## Week 5 (October 19): Enrichment
+Students will continue to work on enriching their texts and preparing their enrichment major assignment. 
 
-## Thursday, January 24: Getting, using, and sharing texts
+## Week 6 (October 26): Analysis
+Students will begin work on analyzing their enriched texts.
 
-Text digitization – be it through OCR or transcription – is a time-consuming prerequisite for digital research. Especially in smaller fields that are less likely to receive grants for large-scale digitization, it&#39;s valuable to share texts that you&#39;ve prepared. We&#39;ll talk about some options for how to do that, best practices for file formats and documentation, and citation and credit for reusing others&#39; texts. We&#39;ll touch on copyright and data ownership, and how to deal with those constraints. We&#39;ll look at national text corpora and HathiTrust, and how to get access to those corpora. We may also have a guest lecturer who can talk about how the Stanford Libraries can help you acquire texts.
+## October 30: Major assignment 2 due
+The enrichment major assignment is due, unless you've arranged for a different due date.
 
-## Tuesday, January 29: Open Lab Day #1
+## Week 7 (November 2): Analysis
+Students will continue working on analyzing their enriched texts, and will begin work on their major assignment. Particularly in this phase, students might discover that the initial tool or method they were using may not be doing what they hoped, and may end up changing their approach. Reflecting on this change can be the basis for a major assignment.
 
-We'll have an open day where you can experiment with your text using Voyant, or venture into language-specific tools and resources. This is a good opportunity to check in with Quinn if you have questions about what you might do for your project.
+## Week 8 (November 9): Interpretation
+Students will work on making sense of the results of their analysis, in the broader context of the texts that they are studying. Students taking the course for 5 credits will begin work on a major assignment on this aspect of their project.
 
-## Thursday, January 31: Topic modeling
+## Week 9 (November 16): Wrap-up 
+As a class (collectively, and in language- and/or tool-specific sub-groups) we'll consider what we've learned through this class, and how we can apply it moving forward in different contexts (in other classes, as CV/resumé fodder, as a way to pursue questions that interest you). Depending on students' interest, I may organize an optional digital poster session / virtual exhibit for students' major assignments.
 
-We'll look at examples of DH-specific technical documentation vs. general-purpose documentation, and work through the example of Miriam Posner's tutorial for the Topic Modeling Tool as well as interpreting the results from the Topic Modeling Tool.
+## November 20: Major assignment 3 due
+The analysis major assignment is due, unless you've arranged for a different due date.
 
--   [Programming Historian](https://programminghistorian.org/en/lessons/): Not only for historians, Programming Historian is the _gold standard_ for detailed tutorials about how to use digital humanities tools and methods. If you're doing the documentation assignment, your documentation isn't expected to be this detailed and thorough, but you should use it as a model.
--   Scott Weingart, [Topic Modeling for Humanists: A Guided Tour](http://www.scottbot.net/HIAL/index.html@p=19113.html)
--   Matthew Jockers, [The LDA Buffet](http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/)
--   Matthew Jockers, ["Secret" Recipe for Topic Modeling Themes](http://xn--secret%20recipe%20for%20topic%20modeling%20themes-9j44awb/)
--   Ted Underwood, [Topic Models Made Just Simple Enough](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/)
--   David Hoover, [Argument, Evidence, and the Limits of Digital Literary Studies](http://dhdebates.gc.cuny.edu/debates/text/71)
--   Benjamin Schmidt, [Words Alone: Dismantling Topic Models in the Humanities](http://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/)
--   Miriam Posner, [Getting started with the Topic Modeling Tool](https://github.com/miriamposner/tmt_get_started)
--   Miriam Posner, [Very basic strategies for interpreting results from the Topic Modeling Tool](http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/)
+## November 30: All work due
+November 30th is the deadline for turning in all work (including major assignment 4 for 5-credit students), with enough time for me to send you feedback and you to do revisions, if needed.
 
 
-### 1/31 - Due date: project proposals (question, method, source)
-_All students taking the course for 3 or more credits will submit a short proposal (1/2 page) with the question their project will be answering, what text(S) they&#39;ll use to answer it, and what tools / methods they&#39;ll use to answer it._ |
+# Format and COVID-19
+This course has been completely restructured into an online, asynchronous course in response to COVID-19, with all the potential associated challenges around time zones, connectivity, and combining education with increased care responsibilities. This format does have advantages: one of the biggest challenges for people working on non-English DH while based in the United States is that it can be challenging to build community locally, or even regionally. Running DLCL 204 asynchronously online makes it feasible for more people to participate, regardless of their location.
+
+## Zoom
+1:1 student meetings, open office hours, student meet-ups, and some troubleshooting sessions will take place via Zoom. Other than the 1:1 student meetings, participation in these meetings is encouraged but optional. Use of video on Zoom is not required, but particularly for troubleshooting and student meet-ups, you may find it helpful to share your screen.
+
+## Slack
+Everyone will be working on their projects at a different pace, at different times of day. To avoid the turnaround time of exchanging email every time you have a question, I'll set up a Slack channel for the class, or you can message me privately. Use of Slack is not required, but may make it faster to get the answers you're looking for -- from me, or your classmates.
 
 
-## Tuesday, February 5: Part-of-speech tagging (hands-on, please bring laptop)
-
-We’ll cover part-of-speech tagging conceptually, when and why you might use it, and students will try to use language-specific code to implement it for their text. 
--   [Language-specific tutorials on Github](https://github.com/quinnanya/dlcl204)
--   [CONLL-U viewer](https://universaldependencies.org/conllu_viewer.html) (CONLL-U files for languages are in Github)
--   [Example of training a POS tagger](https://medium.com/@dataturks/opennlp-training-your-own-custom-pos-tagger-fc46dc8fa813) (brand names)
--   [Example of training Stanford NLP tagger](http://renien.com/blog/training-stanford-pos-tagger/) (retail)
--   Article: "[Part-of-speech tagging for English-Spanish code-switched text](https://dl.acm.org/citation.cfm?doid=1613715.1613852)"
-
-## Thursday, February 7: Communities: Disciplinary, DH, Identity (part 1)
-
-There are many facets to your identity as a scholar, and you may need to adjust the way you frame your work based on the venues and communities where you are presenting it. We’ll talk about your experience (if any) with conferences in your discipline, and how disciplinary conferences differ from DH ones. We'll look at some examples of discipline-specific DH communities, as well as the discourse around digital humanities in other countries. We’ll reflect on the differences in the conception of “diversity” in the United States vs. Europe, and how those differences have played out in the international DH conference. This session will lay the groundwork for the paired conference proposals assignment (for students taking the course for 5 credits).
--   [Humanities Commons (platform for scholarly networks, including MLA and ASEEES)](https://hcommons.org/)
--   [Association for Computers and the Humanities (ACH, US-based professional organization for DH)](http://ach.org/)
--   [Alliance of Digital Humanities Organizations (ADHO, runs annual conference)](http://adho.org/)
--   [Drafts and discussion for ADHO governance framework](https://change.adho.org/)
--   [Scott Weingart's blog posts analyzing submissions to international DH conference](http://scottbot.net/tag/dhconf/)
-
-
-## Tuesday, February 12: Named-entity recognition & geospatial approaches (hands-on, bring laptop)
-We'll look at natural language processing tools for automatically extracting named entities (such as places). Students will try this for their own language. We’ll try transforming a list of places into geographic coordinates, and talk about the limitations of geocoding.
-
-### 2/12 - Project proposals returned w/ feedback
-
-## Thursday, February 14: Posters and Communities: Disciplinary, DH, Identity (part 2)
-
-How do you actually go about creating a poster for an academic conference?
-
-We'll also circle back to the earlier discussion on DH communities, how DH is discussed in other countries, and communities within DH that derive from shared interests, approaches, or identities.
-
--   [Guide to making a conference poster](https://colinpurrington.com/tips/poster-design)
--   Greg Crane, [Digital Humanities in Germany](https://docs.google.com/document/d/1JpMn-DYY6lhrBr_HPPQmtrdjg4bCfEpV6Aj4f8fFh7o/edit#)
--   [AI for the Tale of Genji (Japanese)](https://ai-scholar.tech/2018/12/12/ai-character-recognition-45/)
--   Juan Luis Suárez, translated by Élika Ortega, [Digital Humanities in Spanish?](http://dayofdh2014.matrix.msu.edu/redhd/2014/04/08/digital-humanities-in-spanish/)
--	Paola Ricaurte, [Geopolitics of Knowledge and Digital Humanities](http://dayofdh2014.matrix.msu.edu/redhd/2014/04/09/geopolitics-of-knowledge-and-digital-humanities/)
--	Domenico Fiormonte, [Towards a Cultural Critique of Digital Humanities](http://dhdebates.gc.cuny.edu/debates/text/86)
--	[DH-WoGeM: Women and Gender Minorities in DH](http://dhwogem.org)
-
-
-## Tuesday, February 19: Creating and cleaning structured data (hands-on, please bring  laptop)
-
-Some kinds of analysis and visualization require some kind of structured data as an input: you can&#39;t simply use a full digital text. We&#39;ll talk about some common kinds of structured data, and how to use _OpenRefine_ to reduce or eliminate inconsistencies in that data (&quot;cleaning&quot; it). We&#39;ll try transforming a list of places into geographic coordinates, and talk about the limitations of geocoding. Finally, we&#39;ll take our data (either newly-created from your own texts, or example data) and try it with _Palladio_, a simple visualization tool designed for humanistic inquiry.
-
-
-
-## Thursday, February 21:  Palladio & visualization (hands-on, please bring laptop)
-
-We’ll continue our exploration of Palladio and discuss other general-purpose visualization tools. 
-
-## Tuesday, February 26: Network analysis (hands-on, please bring laptop)
-
-Palladio can turn a spreadsheet of data into a network that you can see. To turn a spreadsheet of data into a quantified network that you can meaningfully compare with other data, you need a network analysis tool, and a basic understanding of network analysis. We'll cover some basic concepts in network analysis and try to create a network using Palladio.
-
-## Thursday, February 28: Tableau (hands-on, please bring laptop)
-
-Tablaeu is an increasingly widely used tool for creating complex visualizations without writing code. This class will be an overview of how to navigate the basic Tableau interface.
-
-## Tuesday, March 5: Network analysis with Cytoscape
-
-We'll cover some more advanced concepts in network analysis, and create a more sophisticated network visualization using Cytoscape.
-
-## Thursday, March 7: Open Lab Day #2
-
-A chance to work on your project and ask questions.
-
-
-### 3/12 – Due date: posters
-_Students who have signed up to do a poster as part of their grade contract must submit their final poster by 10 AM on 3/12 to have it printed in time for the poster exhibition._ |
-
-## Tuesday, March 12: Going beyond borders
-
-After familiarizing ourselves with Gephi in the last class, we&#39;ll look at a network visualization of conference presenters from DH 2014, and what it tells us about how one sample of the field clustered. We&#39;ll talk about professional organizations in DH, and the borders they cross and those they reinforce. We&#39;ll cover DARIAH, the European research infrastructure for digital humanities, and their efforts to engage with scholars beyond Europe. Finally, we&#39;ll reflect on the role that multilingual, culturally-aware scholars can play in bridging DH communities.
-
-## Thursday, March 14: Poster session
-
-Stanford&#39;s literature departments, CESTA, and the Library will be invited to a poster session featuring students&#39; final posters. Students with posters will present them to attendees; students without posters will demo their tutorial and/or talk about their project. Students without a poster or tutorial will listen to their classmates&#39; presentations and ask questions.
-
-### 3/15 – Recommended due date: tutorials &amp; conference proposals
-_Students who have signed up to do a tutorial or conference proposal as part of their contract are advised to turn them in by 3/15 to ensure they have enough time for a revision if needed for the tutorial to be considered satisfactory. Students who submit their work by 3/15 will receive feedback by 3/18._  _Tutorials and conference proposals can be submitted as late as 3/18 for feedback by 3/20. Work submitted after 3/18 will not receive feedback and an opportunity for revision._ _All work and revisions must be submitted by 3/22._ |
-
-
-Accommodation
-=============
+# Accommodation
 
 I want this class to be accessible to anyone who shows up with an interest in the topic. Everyone has a right to the full experience of the class — which is fundamentally about what role digital tools and methods might play in your education and/or research, and how you might choose to connect with and contribute to communities of "digital" scholarship. Grappling with your identity as a student and/or scholar can be difficult. If there's something in the syllabus or that we cover in class that freaks you out, please talk to me! If you're encountering a barrier, or expecting a possible barrier to your being able to successfully complete your contract, let's chat! It doesn't need to be academic — sleep-training kids, taking care of unwell family and friends, roommates who listen to Viking metal bands at full volume at all hours of the night, and anxiously binge-watching Netflix are real life. Mental illness flare-ups can impact what you can get done — I know, I had a bipolar II diagnosis for all of grad school. Whether or not you've got paperwork through the Office of Accessible Education (<https://oae.stanford.edu/>), please come talk to me anytime if something is getting in the way of your learning or completing the contract you created.
 
-Fundamental standard & honor code
-=================================
+The pandemic and all ongoing uncertainty around it are complicating life for everyone, in different ways. Regardless of your situation, I want this class to be an enriching, thought-provoking experience for you. Please get in touch (using any contact methods listed on Canvas that's comfortable for you) if anything comes up that you think might pose a challenge for you to successfully complete the class, and together we can figure out a way to work things out.
+
+# Fundamental standard & honor code
 
 Beyond the bare minimums laid out by the Stanford Fundamental Standard (<https://communitystandards.stanford.edu/policies-and-guidance/fundamental-standard>), I expect you to treat one another in this class not only with respect, but with generosity. If you find a resource or an approach that has helped you, share it so others can benefit -- and listen when others share.
 
 The honor code (<https://communitystandards.stanford.edu/policies-and-guidance/honor-code>) lays out guidelines for the university's policy on academic integrity. Collaboration -- with your classmates and others -- is very much welcome in this course, but be sure to acknowledge your collaborators and the assistance they provided (e.g. including in your acknowledgements section a cousin who helped you interpret some of the statistics from your analysis.)
 
-Acknowledgements
-================
+
+# Acknowledgements
 
 Thanks to Miriam Posner (DH 150: Selfies, Snapchat, & Cyberbullies, <http://miriamposner.com/dh150w15/contract-grading/>) and Ryan Cordell (ENGL 1450: Reading and Writing in the Digital Age, <https://f18rwda.ryancordell.org/course-policies.html>) for the inspiration for contract grading.
 
-Readings and resources for East Asian languages are largely drawn from Molly des Jardin's *East Asian Digital Humanities (EALC111/511)* syllabus (<https://mollydesjardin.com/projects/ealc111-511_syllabus.pdf>).
-
-Thanks to Aimée Morrison for inspiring the accommodation statement.
-
-Appendix: Contract parameters
-=============================
-
-Students will write their own contracts for the grade they want to receive, using the parameters below. The contract allows students to set their own goals for how much they want to invest in this class, and hold themselves accountable for it. Because of the requirements of university degree programs, contracts have to map to grades, but that shouldn't get in the way of students' goals or learning. There is some overlap in the parameters for different grades at different credit levels; a student taking this course for 3 credits who wants to focus on this class may end up putting in as much work for their A as a student taking it for 5 credits who has other priorities this quarter. This is "a feature, not a bug", as is said about software: the 3-credit student will have a structure to hold themselves accountable for engaging with the class to the extent they want, and the 5-credit student will do enough work to get their desired grade given the university's expectations of how much work should go into that grade at that credit level.
-
-Assignment overview
--------------------
-
-The following assignments are included in one or more A-grade contracts:
-
-* **Blog posts**: 800-1000 words reflecting thoughtfully on topics discussed in class. Blog posts are an opportunity to think through and share how the topics we discuss apply, or could apply, to your project in the class, or your scholarship or career more broadly. As you work on your project, blog posts allow you to share challenges, roadblocks, and discoveries when applying the tools we've discussed. Blog posts must be posted on Canvas, but for any blog post, you have the option of additionally sharing it on the Stanford Digital Humanities site (<http://digitalhumanities.stanford.edu>) for the benefit of the broader community.
-
-* **Blog responses:** 60-100 words responding to a classmate's blog post, posted on Canvas. It's helpful to get feedback on your reflections, and reading others' thoughts and challenges might give you ideas for what to try (or not) with your own project.
-
-* **Conference proposals:** A pair of proposals for presenting your project at a conference. One will follow the guidelines for posters for DH 2019 (750 words maximum, <https://dh2019.adho.org/call-for-papers/cfp-english/>). The other will follow the least-demanding guidelines for a conference in your academic field, or an academic field relevant to your text (e.g. if you're a Comp Sci major working on Chinese literature, you could choose a Comp Sci conference or a literature conference). Conference proposals will be submitted via Canvas.
-
-* **Poster:** a visually engaging presentation of your project, compatible with either a presentation or stand-alone display. Posters will be printed and presented at the poster session at the end of the course. Creating a poster forces you to be succinct in the textual presentation of your project and think through how to present it in a visual way. Poster files will be submitted via Canvas and will be printed for the poster session at the end of the course.
-
-* **Project proposal:** 250 words or less, describing a research question, and what text(s) and method(s) you will use to address it. These project proposals are a very lightweight precursor to writing a grant proposal. Project proposals will be submitted via Canvas.
-
-* **Project:** A set of activities that aim to address a research question. The project is the framework for engaging with text that is meaningful to you, using tools and methods that we cover in class (or others you find that are useful for addressing your research question). There may or may not be a final "deliverable" for your project, but depending on your credit level, you'll develop a poster, tutorial, and/or conference proposals based on your project.
-
-* **Tutorial**: 800-1200 words walking through how to do something useful using a tool or method we've discussed in class, or that you've used for your project. The audience is someone else in your field without prior technical experience. Having access to a clearly written, relevant tutorial can mean the difference between trying and not trying a new tool or method, particularly for scholars who don't have access to courses or workshops. While tutorials can be time-consuming to write well, authoring a tutorial that makes tools or methods accessible to others is a way to develop your professional identity within the digital humanities community.
-
-A-grade contract parameters at different credit levels
-------------------------------------------------------
-| Assignment 	| 5 	| 4 	| 3 	| 2 	| 1 	|
-|----------------------------------------	|-------------------	|-------------------	|----------------------------------------	|----------------	|-----	|
-| Missable classes 	| 2 	| 3 	| 3 	| 3 	| 4 	|
-| Blog posts 	| 3-5 	| 2-5 	| 2-4 	| 1-3 	| 0-2 	|
-| Blog comments 	| 5-8 	| 3-7 	| 3-6 	| 2-5 	| 2-4 	|
-| Project proposal 	| Yes 	| Yes 	| Yes 	| Yes 	| No* 	|
-| Implement project 	| Yes 	| Yes 	| Yes 	| No* 	| No* 	|
-| Create & present poster 	| Yes 	| Yes 	| Choose 1-2: poster, tutorial, proposal 	| No 	| No 	|
-| Write tutorial OR conference proposals 	| Yes (can be both) 	| Yes (can be both) 	| -- 	| Write tutorial 	| No 	|
-
-\* _While these credit levels don't need to complete the assignment, they should still spend at least an hour a week experimenting with the tools covered in class and digital text in their language._
-
-B-grade contract parameters at different credit levels
-------------------------------------------------------
-| Assignment 	| 5 	| 4 	| 3 	| 2 	| 1 	|
-|----------------------------------------	|-------------------	|-------------------	|----------------------------------------	|----------------	|-----	|
-| Missable classes 	| 3 	| 4 	| 4 	| 4 	| 5 	|
-| Blog posts 	| 2-4 	| 1-4 	| 1-3 	| 1-2 	| 0-1 	|
-| Blog comments 	| 3-5 	| 2-4 	| 2-4 	| 1-3 	| 1-2 	|
-| Project proposal 	| Yes 	| Yes 	| Yes 	| Yes 	| No* 	|
-| Implement project 	| Yes 	| Yes 	| Yes 	| No* 	| No* 	|
-| Create & present poster 	| Yes 	| Yes 	| Choose 1-2: poster, tutorial, proposal 	| No 	| No 	|
-| Write tutorial OR conference proposals 	| Yes (can be both) 	| Yes (can be both) 	| -- 	| Write tutorial 	| No 	|
-
-\* _While these credit levels don't need to complete the assignment, they should still spend at least an hour a week experimenting with the tools covered in class and digital text in their language._
-
-C-grade/pass contract parameters at different credit levels
------------------------------------------------------------
-| Assignment 	| 5 	| 4 	| 3 	| 2 	| 1 	|
-|----------------------------------------	|-----	|-----	|--------------------------------------	|----------------	|-----	|
-| Missable classes 	| 4 	| 5 	| 5 	| 5 	| 5 	|
-| Blog posts 	| 1-3 	| 1-3 	| 1-3 	| 1-2 	| 0-1 	|
-| Blog comments 	| 2-4 	| 1-3 	| 1-4 	| 1-2 	| 1-2 	|
-| Project proposal 	| Yes 	| Yes 	| Yes 	| Yes 	| No* 	|
-| Implement project 	| Yes 	| Yes 	| Yes 	| No* 	| No* 	|
-| Create & present poster 	| Yes 	| Yes 	| Choose 1: poster, tutorial, proposal 	| No 	| No 	|
-| Write tutorial OR conference proposals 	| Yes 	| Yes 	| -- 	| Write tutorial 	| No 	|
-
-\* _While these credit levels don't need to complete the assignment, they should still spend at least an hour a week experimenting with the tools covered in class and digital text in their language._
+Thanks to Aimée Morrison for inspiring the original accommodation statement, and Anastasia Salter for inspiring the COVID section.
