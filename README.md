@@ -26,6 +26,7 @@ Here's the first draft of the [online course syllabus](dlcl204syllabus.md) to la
 * TEI markup
 
 ### Analysis/visualization
+* Voyant
 * AntConc
 * Stylometry
 * Topic modeling
