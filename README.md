@@ -10,7 +10,29 @@ If you're interested in taking the course (participating virtually, with or with
 
 
 ## Syllabus
-The course syllabus is still under construction to reflect the online-only format, but you can check out the [course syllabus from 2019](dlcl204syllabus.md).
+Here's the first draft of the [online course syllabus](dlcl204syllabus.md) to lay out the broad outlines of the class. Specific readings for each week will be added based on the students' languages, backgrounds, and interests. Each student will have a 1:1 meeting with the instructor to come up with an individual plan for what tools and methods they'll be learning for their project. Examples include:
+
+### Text acquisition
+
+* Web scraping (using webscraper.io or Python)
+* OCR (ABBYY FineReader, Google Drive)
+* Transkribus
+
+### Enrichment
+* Named entity recognition (command-line Stanford NLP or Python-based packages)
+* Part-of-speech tagging (command-line Stanford NLP or Python-based packages)
+* Annotation (Recogito) + model training (e.g. for named-entity recognition)
+* OpenRefine
+* TEI markup
+
+### Analysis/visualization
+* AntConc
+* Stylometry
+* Topic modeling
+* Text comparison algorithms + Tableau
+* Network analysis (Palladio/Cytoscape)
+* Mapping (Palladio/Tableau)
+* XSLT
 
 ## Language-specific materials
 Language-specific tutorials for in-class activities used in the 2019 course are available for the following languages:
