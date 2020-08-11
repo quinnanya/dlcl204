@@ -35,6 +35,14 @@ Here's the first draft of the [online course syllabus](dlcl204syllabus.md) to la
 * Mapping (Palladio/Tableau)
 * XSLT
 
+## 2020 language list
+Students are welcome to bring any language, modern or historical, to the course, and we can work together to identify and document the limits of existing tools and methods for that language. Students have already expressed interest in working with the following languages (list up-to-date as of 8/10), but don't hesitate to get in touch if you're interested in working on a different language:
+
+* Latin
+* Russian
+* Spanish
+
+
 ## Language-specific materials
 Language-specific tutorials for in-class activities used in the 2019 course are available for the following languages:
 
