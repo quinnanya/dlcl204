@@ -4,8 +4,6 @@ Stanford University, fall 2020
 
 A repository for course materials for Stanford University's DLCL 204 / CompLit 204A course _Digital Humanities Across Borders_, taught fall 2020 by Quinn Dombrowski, Academic Technology Specialist for the Division of Literatures, Cultures & Languages (DLCL).
 
-If you're interested in taking the course (participating virtually, with or without trying to figure out a credit-bearing arrangement at your institution), please email Quinn at qad@stanford.edu.
-
 *Course hashtag: #dlcl204*
 
 
