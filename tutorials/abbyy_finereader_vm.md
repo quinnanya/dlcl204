@@ -12,13 +12,13 @@ The easiest way to do it is to use your favorite cloud storage service (e.g. Goo
 Another option is putting files directly on AFS (Andrew File System), which is university storage associated with your SUNet. AFS is automatically connected to the virtual machine you log into, so you could OCR your image files directly from AFS storage, and then save the output text files back to AFS, which you can access from your laptop. For more information about AFS, you can [read the documentation and guides from University IT](https://uit.stanford.edu/service/afs).
 
 ## Microsoft Remote Desktop
-Microsoft Remote Desktop is the software you'll need to connect to the virtual machine. Search for "Microsoft Remote Desktop" and your operating system to download your software.
+Microsoft Remote Desktop is the software you'll need to connect to the virtual machine. Google "Microsoft Remote Desktop" and your operating system to download your software.
 
 ## VPN
 First, you'll need to connect to the Stanford VPN. If it's the first time you're doing it, you'll need to install and configure it. You can find all the information you need about how to use the Stanford VPN on the [university IT guide to the VPN](https://uit.stanford.edu/service/vpn).
 
 ## Connecting to a virtual machine
-After connecting to the VPN (see above), head over to [https://cluster-checkout.stanford.edu/](https://cluster-checkout.stanford.edu/) and log in with your Stanford credentials. If you're not actually connected to the VPN, you'll see a warning message until your VPN is working correctly.
+After connecting to the VPN (as described above), head over to [https://cluster-checkout.stanford.edu/](https://cluster-checkout.stanford.edu/) and log in with your Stanford credentials. If you're not actually connected to the VPN, you'll see a warning message until your VPN is working correctly.
 
 From the "Remote Cluster Computers" screen, choose the "Windows Cluster".
 
