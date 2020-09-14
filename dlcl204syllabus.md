@@ -50,7 +50,7 @@ By default, each major assignment will be due after the corresponding phase of t
 
 # Weekly schedule
 
-## Week 1 (September 21): Introductions
+## Week 1 (September 14): Introductions
 One of the challenges of teaching this course is that I don't know what languages people are interested in until they arrive. (If you're enrolling in the class, it helps if you email me in advance and let me know what language you'll be working with!) The first week will give us a chance to get to know one another, and I'll try to find some existing DH work that might resonate with your linguistic and topical interests. I'll also share a few different perspectives on what DH is, and what it looks like in practice to do DH work.
 
 During week 1, I'll start holding 1:1 meetings with students to talk about what they're interested in working on this quarter.
@@ -63,43 +63,43 @@ This week's readings are an introduction to major themes you'll encounter in the
 * "[Leaving Humanist](https://linguacelta.com/blog/2020/08/Humanist.html)", a blog post by UK scholar Bethan Tovey-Walsh, is a piece for the present moment. This summer, a number of major DH organizations issued statements on Black Lives Matter, structural racism, and establishment violence. (We'll read these later in the quarter.) Shortly thereafter, Willard McCarty, who won an award for lifetime achievement in DH in 2013, approved a post referencing "anti-white racism" on [Humanist](https://dhhumanist.org/), the DH discussion mailing list he has curated since the late 1980's. His reluctance to approve responses to this post caused a backlash from many DH scholars, and the list ultimately went on hiatus. This piece serves as a the counterweight to Spiro's values of digital humanities: what happens when people understand those values differently, particuarly as they intersect with rapidly-evolving developments in some (but not all) national contexts?
 
 
-## Week 2 (September 28): Pathfinding / Text acquisition
+## Week 2 (September 21): Pathfinding / Text acquisition
 During week 2, I'll continue holding 1:1 meetings with students to plan out the quarter. As those plans take shape, I'll start organizing meet-ups with groups of students, based on shared languages and/or tools. These will take place throughout the quarter.
 
 Students will start to work on the text acquisition phase of their project.
 
-## Week 3 (October 5): Text acquisition
+## Week 3 (September 28): Text acquisition
 Students will continue to work on text acquisition during week 3, and will prepare their assignment for the text acquisition phase. I'll be available throughout the week for troubleshooting help and advice.
 
-## Week 4 (October 12): Enrichment
+## Week 4 (October 5): Enrichment
 Students will work on enriching the texts they acquired in the first phase, and will finish their text acquisition major assignment.
 
-## October 16: Major assignment 1 due
+## October 9: Major assignment 1 due
 The text acquisition major assignment is due, unless you've arranged for a different due date.
 
-## Week 5 (October 19): Enrichment
+## Week 5 (October 12): Enrichment
 Students will continue to work on enriching their texts and preparing their enrichment major assignment. 
 
-## Week 6 (October 26): Analysis
+## Week 6 (October 19): Analysis
 Students will begin work on analyzing their enriched texts.
 
-## October 30: Major assignment 2 due
+## October 23: Major assignment 2 due
 The enrichment major assignment is due, unless you've arranged for a different due date.
 
-## Week 7 (November 2): Analysis
+## Week 7 (October 26): Analysis
 Students will continue working on analyzing their enriched texts, and will begin work on their major assignment. Particularly in this phase, students might discover that the initial tool or method they were using may not be doing what they hoped, and may end up changing their approach. Reflecting on this change can be the basis for a major assignment.
 
-## Week 8 (November 9): Interpretation
+## Week 8 (November 2): Interpretation
 Students will work on making sense of the results of their analysis, in the broader context of the texts that they are studying. Students taking the course for 5 credits will begin work on a major assignment on this aspect of their project.
 
-## Week 9 (November 16): Wrap-up 
+## Week 9 (November 9): Wrap-up 
 As a class (collectively, and in language- and/or tool-specific sub-groups) we'll consider what we've learned through this class, and how we can apply it moving forward in different contexts (in other classes, as CV/resumé fodder, as a way to pursue questions that interest you). Depending on students' interest, I may organize an optional digital poster session / virtual exhibit for students' major assignments.
 
-## November 20: Major assignment 3 due
+## November 16: Major assignment 3 due
 The analysis major assignment is due, unless you've arranged for a different due date.
 
-## November 30: All work due
-November 30th is the deadline for turning in all work (including major assignment 4 for 5-credit students), with enough time for me to send you feedback and you to do revisions, if needed.
+## November 23: All work due
+November 23rd is the deadline for turning in all work (including major assignment 4 for 5-credit students), with enough time for me to send you feedback and you to do revisions, if needed.
 
 
 # Format and COVID-19
