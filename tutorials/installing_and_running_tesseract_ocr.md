@@ -50,6 +50,6 @@ Alternately, you can use Finder to navigate to the *parent folder* of the folder
 
 Before you run the Imagemagick command to convert the PDF, make sure the pages aren't rotated sideways from your scanning (as in the example below). Everything should be facing the correct direction. You can use Preview to rotate the images if needed.
 
-Once you're in the folder, run `convert "input_file_name_pdf" -density 300 -depth 8  "output_file_name.tif"`, substituting the PDF file name for *input_file_name.pdf* and your desired output file for *output_file_name-%03d.tif*. T
+Once you're in the folder, run `convert "input_file_name_pdf" -density 300 -depth 8  "output_file_name.tif"`, substituting the PDF file name for *input_file_name.pdf* and your desired output file for *output_file_name-%03d.tif*. 
 
 This creates a set of 300 DPI, 8-bit color depth TIF files from your PDF. Each output file name will have 3 digits appended (starting with 000, so *output-000.tif*, *output-001.tif*, etc.)

@@ -43,9 +43,11 @@ Students are welcome to bring any language, modern or historical, to the course,
 * Italian
 * Japanese
 * Latin
+* Ottoman Turkish
+* Portuguese
 * Russian
 * Spanish
-* Turkish
+* Vietnamese
 
 
 ## Language-specific materials

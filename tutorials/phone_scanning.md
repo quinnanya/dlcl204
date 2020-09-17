@@ -1,0 +1,6 @@
+# Phone scanning
+If you have to resort to scanning things with your phone, be sure to use an app that's intended for scanning. For scanning to turn out well, it's more than just taking a picture of a book. Scanning apps also do things like deskewing (trying to account for the way the pages bend) and adjusting brightness and contrast automatically. The app I usually use is <a href="https://www.camscanner.com/">CamScanner</a>. If you have an Adobe account, or don't mind creating one, <a href="https://acrobat.adobe.com/us/en/mobile/scanner-app.html">Adobe Scan</a> is also good.
+
+When looking for phone scanner apps, you might see ABBYY FineReader as one of the options, which promises to not only scan but do OCR for you. My experience has been that the OCR step is fairly likely to fail, and even if you get results, they're not as good as running the OCR using the computer version of FineReader.
+
+The phone scanning apps tend to be fairly intuitive to use, and the details vary from one app to another. Give it a try, and if you have any questions, please let me know!
