@@ -68,6 +68,12 @@ During week 2, I'll continue holding 1:1 meetings with students to plan out the 
 
 Students will start to work on the text acquisition phase of their project.
 
+* [‘Q i-jtb the Raven’: Taking Dirty OCR Seriously](https://ryancordell.org/research/qijtb-the-raven/), Ryan Cordell, 2017. This piece dives into the metadata you leave behind in the EXIF file structure, as someone who digitizes a text that was originally analogue. The references to "CA" are about "Chronicling America" an effort to digitize American newspapers that excluded Japanese-language newspapers, among others. (Locally, the [Hoover Institution](https://www.hoover.org/library-archives/collections/japan) has a project to fill in that gap.)
+* [Recognizing handwritten text in Slavic manuscripts: A neural-network approach using Transkribus](https://www.academia.edu/38835297/Recognizing_handwritten_text_in_Slavic_manuscripts_A_neural_network_approach_using_Transkribus_1_Achim_Rabus) by Achim Rabus. This piece is, fundamentally, a write-up of one scholar's experiences with using the Transkribus software to create a model for digitizing Slavic manuscripts. The Russian folks in the class have a leg up here, but honestly, even if you can't recognize any of the Cyrillic laphabet, reading this is a very real-world experience. (I don't know the first thing about Ottoman Turkish, but I'm reaidng some comp sci papers about machine learning methods on how to translate it, this week.) Don't get bogged down into the techical (or Slavistic) detils if that's not your thing. What are the use cases where Achim describes trying it out? Does Transkribus work well for all those use cases? If you were teaching a DH class and you had a student interested in Slavic Cyrillic manuscripts, would you recommend it? Why or why not?
+* Watch [this news report on Tarin Clanuwat and her machine-learning model for kuzushiji](https://www.facebook.com/cnbctv18india/posts/2540954169275299). This is for a general audience; you can also read more detail on the [Around DH 2020 piece](http://arounddh.org/en/kuronet) about the project. (Use the Around DH 2020 piece for annotating.)
+* "The DSC and Mean Copyright Law", coming Tuesday from the Data-Sitters Club. Especially if you're working with e-books, this is for you.
+
+
 ## Week 3 (September 28): Text acquisition
 Students will continue to work on text acquisition during week 3, and will prepare their assignment for the text acquisition phase. I'll be available throughout the week for troubleshooting help and advice.
 
