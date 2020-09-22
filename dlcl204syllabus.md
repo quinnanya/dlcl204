@@ -63,7 +63,7 @@ This week's readings are an introduction to major themes you'll encounter in the
 * "[Leaving Humanist](https://linguacelta.com/blog/2020/08/Humanist.html)", a blog post by UK scholar Bethan Tovey-Walsh, is a piece for the present moment. This summer, a number of major DH organizations issued statements on Black Lives Matter, structural racism, and establishment violence. (We'll read these later in the quarter.) Shortly thereafter, Willard McCarty, who won an award for lifetime achievement in DH in 2013, approved a post referencing "anti-white racism" on [Humanist](https://dhhumanist.org/), the DH discussion mailing list he has curated since the late 1980's. His reluctance to approve responses to this post caused a backlash from many DH scholars, and the list ultimately went on hiatus. This piece serves as a the counterweight to Spiro's values of digital humanities: what happens when people understand those values differently, particuarly as they intersect with rapidly-evolving developments in some (but not all) national contexts?
 
 
-## Week 2 (September 21): Pathfinding / Text acquisition
+## Week 2 (September 21): Text acquisition
 During week 2, I'll continue holding 1:1 meetings with students to plan out the quarter. As those plans take shape, I'll start organizing meet-ups with groups of students, based on shared languages and/or tools. These will take place throughout the quarter.
 
 Students will start to work on the text acquisition phase of their project.
@@ -74,8 +74,8 @@ Students will start to work on the text acquisition phase of their project.
 * "The DSC and Mean Copyright Law", coming Tuesday from the Data-Sitters Club. Especially if you're working with e-books, this is for you.
 
 
-## Week 3 (September 28): Text acquisition
-Students will continue to work on text acquisition during week 3, and will prepare their assignment for the text acquisition phase. I'll be available throughout the week for troubleshooting help and advice.
+## Week 3 (September 28): Text acquisition / Pathfinding
+Students will continue to work on text acquisition during week 3, and will prepare their assignment for the text acquisition phase. I'll be available throughout the week for troubleshooting help and advice. We'll take a look at some examples of DH text analysis projects.
 
 ## Week 4 (October 5): Enrichment
 Students will work on enriching the texts they acquired in the first phase, and will finish their text acquisition major assignment.
