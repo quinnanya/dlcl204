@@ -53,3 +53,13 @@ Before you run the Imagemagick command to convert the PDF, make sure the pages a
 Once you're in the folder, run `convert "input_file_name_pdf" -density 300 -depth 8  "output_file_name.tif"`, substituting the PDF file name for *input_file_name.pdf* and your desired output file for *output_file_name-%03d.tif*. 
 
 This creates a set of 300 DPI, 8-bit color depth TIF files from your PDF. Each output file name will have 3 digits appended (starting with 000, so *output-000.tif*, *output-001.tif*, etc.)
+
+## Installing Tesseract on Windows
+Installing Tesseract on Windows is much more straightforward than on Mac. There's an <a href="https://github.com/UB-Mannheim/tesseract/wiki">installer you can run, like any other software package</a>. You can choose the languages you want to add as part of the installation process. Once you've installed it, you can launch the *Console* from within the Tesseract folder under your program menu, which will work like the Mac and Linux terminal for running Tesseract.
+
+## Running Tesseract
+Once you've launched the Terminal on Mac, or the Console on Windows, make sure that you know the full path to where your image files are. It may be easiest to move into the directory with those files so you don't have to worry about paths as part of the Tesseract invocation. On Mac, if the images are in your Documents folder, you can run `cd /Users/you-username-here/Documents` (be sure to put your username on your computer into the path in where it says your-username-here).
+
+Then run the command `tesseract your-file-name.tiff your-output-name.txt -l your-language-code`.
+
+Be sure to substitute your actual image file name for `your-file-name.tiff`, your preferred output file name for `your-output-name.txt` and the three-digit language code for your language, as found in <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">this Wikipedia article</a>. So, to OCR an image of Russian text called russian1.tiff, you'd run `tesseract russian1.tiff russian1-output.txt -l rus`.
