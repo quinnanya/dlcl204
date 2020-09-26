@@ -63,4 +63,14 @@ Language-specific tutorials for in-class activities used in the 2019 course are 
 * [Spanish](spanish)
 
 ## Other tutorials
+### Text acquisition
+* [Tips for book scanning with a scanner](tutorials/book_scanning.md)
+* [Tips for book scanning with a phone](tutorials/phone_scanning.md)
+* [Accessing ABBYY FineReader via Stanford's virtual computer lab](tutorials/abbyy_finereader_vm.md)
+* [OCR with Adobe Acrobat](tutorials/adobe_acrobat_ocr.md)
+* [Installing and running Tesseract OCR](tutorials/installing_and_running_tesseract_ocr.md)
+* [Web scraping with webscraper.io](tutorials/webscraping.md)
 * [Palladio](palladio)
+
+## Jupyter notebooks
+* [Extracting burned-in subtitles from videos](notebooks/subtitle_extraction.ipynb)
