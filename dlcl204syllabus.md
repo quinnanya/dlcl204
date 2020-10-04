@@ -84,7 +84,18 @@ Students will continue to work on text acquisition during week 3, and will prepa
 
 
 ## Week 4 (October 5): Enrichment
-Students will work on enriching the texts they acquired in the first phase, and will finish their text acquisition major assignment.
+This week you should be close to having your first assignment (your corpus) ready. (If not, let me know and we'll figure something out!) Now that you have some text, it's time to start doing things with it. You'll soon be splitting off again to work on your respective projects, but for one week, let's start exploring your many (and very different) corpora using the same tool: [Voyant](https://voyant-tools.org/). This will also be the week when you'll get to try out Jupyter notebooks for pre-processing your text -- and you can compare how raw vs. pre-processed non-English text behaves in Voyant. Here's the combo reading list / to-do list for this week:
+
+* **Read/Annotate**: Ch. 1 ("Introduction: Correcting Method") and Ch. 2 ("The Measured Words: How Computers Analyze Texts") of *Hermeneutica: Computer-Assisted Interpretation in the Humanities* by Stéfan Sinclair & Geoffrey Rockwell. These chapters form an introduction to thinking about what humanities-oriented computational text analysis is, and what it does (and what it can't do). Hermeneutica is [available online via Searchworks](https://searchworks.stanford.edu/view/13347297), and I'll have Hypothesis-enabled versions on Canvas.
+* **Do**: Upload the text files from your corpus to [Voyant](https://voyant-tools.org/) and explore some of the different tools available. What do you notice? How well does it work?
+* **Read/Do**: [Introduction to Jupyter Notebooks](https://programminghistorian.org/en/lessons/jupyter-notebooks): this Programming Historian tutorial (which I co-authored... sorry... criticism is very welcome!) explains what Jupyter notebooks are, both conceptually and practically. Follow the instructions in the tutorial to install Anaconda on your computer. Many of you will be using Jupyter notebooks for text pre-processing.
+* **Do**: For languages other than Chinese, Japanese, and Vietnamese, download the lemmatizer notebook for your language, and run it on your text to create lemmatized derivative files (where all words are replaced with their dictionary forms). Upload **those** files to Voyant. How are your results different? (Chinese, Japanese, and Vietnamese-language students can skip this step.)
+* **Do**: Post a short paragraph to Slack or Canvas about your experiences with Voyant, and lemmatized vs. non-lemmatized text.
+* **Do**: Fill out the Doodle poll for trying to find a time for your language group to meet synchronously (will be posted to your language's Slack channel on Monday).
+* **Optional**: For a colloquial walkthrough of how you might follow a research question through multipel Voyant tools, here's [Data-Sitters Club #6: Voyant's Big Day](https://datasittersclub.github.io/site/dsc6/).
+
+
+
 
 ## October 9: Major assignment 1 due
 The text acquisition major assignment is due, unless you've arranged for a different due date.
