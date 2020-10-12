@@ -27,3 +27,6 @@ Stemming removes prefixes and suffixes, leaving a kind of "root form" for each w
 Segmenting (artificially inserting spaces between words) is an important step in preparing texts for computational methods, for languages that don't use spaces in the same way as English.
 * [Chinese segmenter](dlcl204-chinese-segmenter.ipynb) using [jieba](https://pypi.org/project/jieba/)
 * [Japanese segmenter](https://github.com/quinnanya/japanese-segmenter) using RakutenMA
+
+## Analysis
+* [Creating word vectors](dlcl204_word_vectors.ipynb) using gensim
