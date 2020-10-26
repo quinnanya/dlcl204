@@ -109,22 +109,34 @@ Word vectors aren't the place that you'd usually start with exploring your text 
 * For the Classics students, here's a paper on "[Word Embeddings Pointing the Way for Late Antiquity](https://www.aclweb.org/anthology/W15-3708.pdf)" by Johannes Bjerva and Raf Praet (no need to annotate, just FYI)
 
 
-## Week 6 (October 19): Analysis
-Students will begin work on analyzing their enriched texts.
+## Week 6 (October 19): Catch-up & text comparison
+This week is a good opportunity to catch up on any material you haven't had a chance to get through, and start working on a plan for your final projet, which should help shape decisions about what you want to do for assignments 2 and 3.
+
+The only reading for this week is a long one: an all-new Data-Sitter's Club book on text comparison that goes in-depth with a few different text comparison methods. It also doesn't shy away from the places where you can (and I **did**) mess things up due to simple mistakes and misunderstandings with code. 
+
+If you'd like to try out some of the methods described in the book, there's also a "just the code" notebook that you can play with. (You probably will want to use your lemmatized text, if that's relevant for your language.) If you want to explore further refining your corpus before you compare your texts (e.g. just pulling out all nouns), let me know and we can put together a Jupyter notebook to do it!
+
+* Read/annotate: *[Data-Sitters Club #8: Text-Comparison-Algorithm-Crazy Quinn](https://datasittersclub.github.io/site/dsc8/)*
 
 ## October 23: Major assignment 2 due
 The enrichment major assignment is due, unless you've arranged for a different due date.
 
-## Week 7 (October 26): Analysis
-Students will continue working on analyzing their enriched texts, and will begin work on their major assignment. Particularly in this phase, students might discover that the initial tool or method they were using may not be doing what they hoped, and may end up changing their approach. Reflecting on this change can be the basis for a major assignment.
+## Week 7 (October 26): Named entity recognition
+A number of students are interested in the people and places that occur in their corpus. Named entity recognition is one way to try to identify those, particularly when you don't have a pre-defined list of names or places that you're interested in. (If you do, you're better off just searching for the things on your list, in a manner sensitive to possible variations.)
 
-## Week 8 (November 2): Interpretation
-Students will work on making sense of the results of their analysis, in the broader context of the texts that they are studying. Students taking the course for 5 credits will begin work on a major assignment on this aspect of their project.
+* Read/annotate: *[Data-Sitters Club Multilingual Mystery #2: Beware Lee and Quinn!](https://datasittersclub.github.io/site/dscm2/): this DSC book compares how well the Spacy named entity recognition for English works, compared to French. (You can guess which one works better.) There's a link to a Jupyter notebook with code for running Spacy NER for English and French; if your language's lemmatizer code used Spacy, you can try adapting the code in the DSC notebook for your language. (All you should have to do is change which model it loads; compare the first part of the notebook to your language's lemmatizer notebook.) If your language didn't use Spacy, talk with Quinn about what other tools you can use. (If you'd like, Quinn can put together a notebook that you can try out for your language.)
+* Read/annotate: Katherine McDonough, Ludovic Moncla & Matje van de Camp. "[Named entity recognition goes to old regime France: geographic text analysis for early modern French corpora](https://www.tandfonline.com/doi/abs/10.1080/13658816.2019.1620235)". 
 
-## Week 9 (November 9): Wrap-up 
-As a class (collectively, and in language- and/or tool-specific sub-groups) we'll consider what we've learned through this class, and how we can apply it moving forward in different contexts (in other classes, as CV/resumé fodder, as a way to pursue questions that interest you). Depending on students' interest, I may organize an optional digital poster session / virtual exhibit for students' major assignments.
 
-## November 16: Major assignment 3 due
+## Week 8 (November 2) & Week 9 (November 9): Project work / topic modeling
+Over these two weeks, students will mostly be working on their own projects, which will lead to major assignment 3 (and 4, for 5-credit students). Based on students' project needs, I'll be putting together tutorials around specific topics, including potentially training models, network visualizations, and general data visualization with Tableau. The last method that we'll cover together is topic modeling, using Scott Enderle's [Topic Modeling Tool](https://github.com/senderle/topic-modeling-tool).
+
+## Week 10 (November 16): Wrap-up
+As a class (collectively, and in language- and/or tool-specific sub-groups) we'll consider what we've learned through this class, and how we can apply it moving forward in different contexts (in other classes, as CV/resumé fodder, as a way to pursue questions that interest you). 
+
+On the last day of class (Friday, November 20th), we'll have a synchronous Zoom "poster session" where everyone can present their work from the class (optional but encouraged).
+
+## November 20: Major assignment 3 due
 The analysis major assignment is due, unless you've arranged for a different due date.
 
 ## November 23: All work due
