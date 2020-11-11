@@ -131,6 +131,10 @@ A number of students are interested in the people and places that occur in their
 ## Week 8 (November 2) & Week 9 (November 9): Project work / topic modeling
 Over these two weeks, students will mostly be working on their own projects, which will lead to major assignment 3 (and 4, for 5-credit students). Based on students' project needs, I'll be putting together tutorials around specific topics, including potentially training models, network visualizations, and general data visualization with Tableau. The last method that we'll cover together is topic modeling, using Scott Enderle's [Topic Modeling Tool](https://github.com/senderle/topic-modeling-tool).
 
+* Read/annotate: *[The Joy of Topic Modeling](http://mcburton.net/blog/joy-of-tm/)* by Matt Burton
+* Read/annotate: *[The LDA Buffet is Now Open; or, Latent Dirichlet Allocation for English Majors](https://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/)* by Matt Jockers
+* Play with [jsLDA: In-browser topic modeling](https://mimno.infosci.cornell.edu/jsLDA/) (remember, if you're using your own data, you need to upload multiple "documents", AKA "some piece of text"). You may also enjoy [this tweet stream](https://twitter.com/dmimno/status/1320736660150198273?s=19) by David Mimno explaining the design goals.
+
 ## Week 10 (November 16): Wrap-up
 As a class (collectively, and in language- and/or tool-specific sub-groups) we'll consider what we've learned through this class, and how we can apply it moving forward in different contexts (in other classes, as CV/resumé fodder, as a way to pursue questions that interest you). 
 
