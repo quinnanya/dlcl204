@@ -129,7 +129,7 @@ A number of students are interested in the people and places that occur in their
 
 
 ## Week 8 (November 2) & Week 9 (November 9): Project work / topic modeling
-Over these two weeks, students will mostly be working on their own projects, which will lead to major assignment 3 (and 4, for 5-credit students). Based on students' project needs, I'll be putting together tutorials around specific topics, including potentially training models, network visualizations, and general data visualization with Tableau. The last method that we'll cover together is topic modeling, using Scott Enderle's [Topic Modeling Tool](https://github.com/senderle/topic-modeling-tool).
+Over these two weeks, students will mostly be working on their own projects, which will lead to major assignment 3 (and 4, for 5-credit students). Based on students' project needs, I'll be putting together tutorials around specific topics, including potentially training models, network visualizations, and general data visualization with Tableau. The last method that we'll cover together is topic modeling.
 
 * Read/annotate: *[The Joy of Topic Modeling](http://mcburton.net/blog/joy-of-tm/)* by Matt Burton
 * Read/annotate: *[The LDA Buffet is Now Open; or, Latent Dirichlet Allocation for English Majors](https://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/)* by Matt Jockers
