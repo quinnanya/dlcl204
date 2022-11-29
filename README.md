@@ -1,6 +1,6 @@
 # DLCL 204: Digital Humanities Across Borders
 DLCL 204 / CompLit 204A
-Stanford University, fall 2020
+Stanford University, winter 2023
 
 A repository for course materials for Stanford University's DLCL 204 / CompLit 204A course _Digital Humanities Across Borders_, taught fall 2020 by Quinn Dombrowski, Academic Technology Specialist for the Division of Literatures, Cultures & Languages (DLCL).
 
@@ -8,7 +8,7 @@ A repository for course materials for Stanford University's DLCL 204 / CompLit 2
 
 
 ## Syllabus
-Here's the first draft of the [online course syllabus](dlcl204syllabus.md) to lay out the broad outlines of the class. Specific readings for each week will be added based on the students' languages, backgrounds, and interests. Each student will have a 1:1 meeting with the instructor to come up with an individual plan for what tools and methods they'll be learning for their project. Examples include:
+Here's the first draft of the [online course syllabus](dlcl204syllabus_winter2023.md) to lay out the broad outlines of the class. Specific readings for each week will be added based on the students' languages, backgrounds, and interests. Each student will have a 1:1 meeting with the instructor to come up with an individual plan for what tools and methods they'll be learning for their project. Examples include:
 
 ### Text acquisition
 
@@ -34,7 +34,7 @@ Here's the first draft of the [online course syllabus](dlcl204syllabus.md) to la
 * XSLT
 
 ## 2020 language list
-Students are welcome to bring any language, modern or historical, to the course, and we can work together to identify and document the limits of existing tools and methods for that language. Students will be working with the following languages:
+Students are welcome to bring any language, modern or historical, to the course, and we can work together to identify and document the limits of existing tools and methods for that language. In 2020 students worked with:
 
 * Arabic
 * Chinese
