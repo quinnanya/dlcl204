@@ -1,0 +1,10 @@
+# DLCL 204 - Winter 2023 - Favorite Python libraries
+
+A list of some favorite Python libraries when doing text analysis.
+
+* [spaCy](https://spacy.io/): for anything natural-language processing (i.e. anything you do with a text that depends on the code having some linguistic knowledge of your language), it's a great place to start as long as it has a [model that supports your language](https://spacy.io/models). The models aren't always great, but it's not like alternatives are a whole lot better, and the spaCy documentation is excellent, with clear examples of how to do things. You can also find good answers Googling around, especially if you run into problems or things that don't work.
+* [Sci-kit Learn](https://scikit-learn.org/stable/): framed as "machine learning in Python", which sounds a little intimidating, but it's what underpins the text comparison metrics that we did, and there's a whole lot more that you can do with it that I haven't begun to explore.
+* [Pandas](https://pandas.pydata.org/) is a huge pain and I still don't quite have my head wrapped around it, but it's the way to deal with large data sets in Python. There's some great DH-oriented [pedagogical materials by William Mattingly](http://pandas.pythonhumanities.com/02_01_finding_data.html)
+* Honestly, sometimes I just avoid Pandas and do simple things using the [CSV library](https://docs.python.org/3/library/csv.html);
+* [Shifterator](https://github.com/ryanjgallagher/shifterator) gives you a nice visualization of what words are more characteristic of one text vs. another. Very handy!
+* [Fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/) is great for "fuzzy string matching", i.e., linking two things that aren't exactly the same but are close. Imagine you've got a list of book tiles and a list of filenames and you've got a set of them that don't quite line up. Fuzzywuzzy can be used for finding, for instance, that the file is named "Tale of Two Cities.txt" and the book title is "A Tale of Two Cities" or accounting for differences due to OCR errors.
